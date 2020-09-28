@@ -10,7 +10,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <Router basename="portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="/">
