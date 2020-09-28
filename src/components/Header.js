@@ -3,10 +3,9 @@ import React from "react";
 function Header(props) {
   return (
     <header className="App-header">
-      <p>
+      <h4>
         YEEET
-      </p>
-      Learn React
+      </h4>
     </header>
   );
 }
