@@ -11,7 +11,7 @@ function Portfolio(props) {
   return (<div>
     <div className="row">
       <div className="col">
-        <div className="bg-gradient-light mx-auto shadow px-4 py-4 clearfix" style={{
+        <div className="bg-gradient-light mx-auto shadow-sm px-4 py-4 clearfix" style={{
             maxWidth: "690px"
           }}>
           <div className="mb-3 mb-md-0">
