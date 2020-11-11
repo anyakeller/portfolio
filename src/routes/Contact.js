@@ -18,7 +18,7 @@ function Contact(props) {
                 whiteSpace: "pre-line"
               }}>
               I didn't write my name up there this time so I'm letting you know it's
-              <span className="font-weight-bold">Anya Keller</span>
+              <span className="font-weight-bold">{' '}Anya Keller</span>
             </p>
           </div>
         </div>

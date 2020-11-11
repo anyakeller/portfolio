@@ -10,10 +10,7 @@ function App() {
         <Link className="navbar-brand" to="/">
           Anya Keller
         </Link>
-        {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-content" aria-controls="navbar-collapse-content" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>*/
-        }
+
         <button className="navbar-toggler hamburger collapsed hamburger--squeeze" data-toggle="collapse" type="button" data-target="#navbar-collapse-content" aria-controls="navbar-collapse-content" aria-expanded="false" aria-label="Toggle navigation">
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
