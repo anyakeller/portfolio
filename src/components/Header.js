@@ -1,13 +1,11 @@
 import React from "react";
+import {useLocation} from 'react-router-dom';
 
 function Header(props) {
-  return (
-    <header className="App-header">
-      <h4>
-        YEEET
-      </h4>
-    </header>
-  );
+  const location = useLocation();
+  return (<header className="App-header px-2">
+    <a href={location.pathname}><small className="text-muted">{location.pathname}</small></a>
+  </header>);
 }
 
 export default Header;

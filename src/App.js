@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Switch, Route, Link, NavLink} from "react-router-dom";
-import {Home, About} from "./routes";
+import {Home, Portfolio, Contact} from "./routes";
 import Header from "./components/Header";
 
 function App() {
@@ -15,20 +15,24 @@ function App() {
         </button>
         <div className="collapse navbar-collapse" id="navbar-collapse-content">
           <div className="navbar-nav">
-            <NavLink exact to="/" className="nav-link" activeClassName="active">
+            <NavLink exact={true} to="/" className="nav-link" activeClassName="active">
               Home
             </NavLink>
-            <NavLink to="/about" className="nav-link" activeClassName="active">
-              About
+            <NavLink to="/portfolio" className="nav-link" activeClassName="active">
+              Portfolio
+            </NavLink>
+            <NavLink to="/contact" className="nav-link" activeClassName="active">
+              Contact
             </NavLink>
           </div>
         </div>
       </nav>
       <Header/>
-      <div className="container">
+      <div className="container pt-3 pb-2">
         <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route path="/about" component={About}></Route>
+          <Route exact={true} path="/" component={Home}></Route>
+          <Route path="/portfolio" component={Portfolio}></Route>
+          <Route path="/contact" component={Contact}></Route>
         </Switch>
       </div>
     </div>
