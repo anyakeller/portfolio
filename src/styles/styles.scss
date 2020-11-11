@@ -1,6 +1,19 @@
 @import "custom-bootstrap";
 @import "~bootstrap/scss/bootstrap";
 
+$hamburger-padding-x: 15px;
+$hamburger-padding-y: 2px;
+$hamburger-layer-height: 3px;
+$hamburger-layer-spacing: 5px;
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+.navbar-toggler.hamburger:not(.collapsed){
+  @extend .is-active;
+}
+
+button:focus {
+  outline: none;
+}
+
 .card-columns {
   @include media-breakpoint-only(sm) {
     column-count: 2;

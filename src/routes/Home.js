@@ -18,7 +18,7 @@ function Home(props) {
             }}>
             Sometimes I write code.{'\n'}
             Sometimes I make things.{'\n'}
-            But I always desperately need to go back to collage
+            But I always desperately need to go back to college
           </p>
         </div>
         <aside className="text-center float-md-right">
