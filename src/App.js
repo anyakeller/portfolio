@@ -6,7 +6,7 @@ import Header from "./components/Header";
 function App() {
   return (<Router basename={`${process.env.PUBLIC_URL}/`}>
     <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
           Anya Keller
         </Link>

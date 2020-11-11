@@ -9,7 +9,7 @@ function Contact(props) {
           }}>
           <div className="mb-3 mb-md-0">
             <h1>
-              <small className="text-muted text-small mr-2">
+              <small className="text-muted text-small mr-2 d-block d-sm-inline">
                 dare to
               </small>
               <span className="display-4">Contact Me</span>

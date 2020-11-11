@@ -16,7 +16,7 @@ function Portfolio(props) {
           }}>
           <div className="mb-3 mb-md-0">
             <h1>
-              <small className="text-muted text-small mr-2">
+              <small className="text-muted text-small mr-2 d-block d-sm-inline">
                 garbage by
               </small>
               <span className="display-4">Anya Keller</span>
