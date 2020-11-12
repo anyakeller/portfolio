@@ -7,14 +7,14 @@ function Contact(props) {
         <div className="bg-gradient-light mx-auto shadow-sm px-4 py-4 clearfix" style={{
             maxWidth: "690px"
           }}>
-          <div className="mb-3 mb-md-0">
+          <div className="mb-0">
             <h1>
               <small className="text-muted text-small mr-2 d-block d-sm-inline">
                 dare to
               </small>
               <span className="display-4">Contact Me</span>
             </h1>
-            <p className="lead pl-2" style={{
+            <p className="lead pl-2 mb-1" style={{
                 whiteSpace: "pre-line"
               }}>
               I didn't write my name up there this time so I'm letting you know it's

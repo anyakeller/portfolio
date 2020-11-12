@@ -18,7 +18,7 @@ function ProjectCard(props) {
       })
     }
   }
-  return (<div className="card shadow">
+  return (<div className="card shadow-lg">
     <img className="card-img-top" src={"project-media/" + projectData.img_file} alt="180x250 placeholder img"/>
     <div className="card-body">
       <h5 className="card-title">{projectData.project_name}</h5>

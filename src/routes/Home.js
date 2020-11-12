@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(props) {
-  return (<div className="bg-gradient-light mx-auto shadow px-4 py-4" style={{
+  return (<div className="bg-gradient-light mx-auto shadow-lg px-4 py-4" style={{
       maxWidth: "690px"
     }}>
     <div className="row">
