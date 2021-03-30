@@ -1,24 +1,24 @@
 import React from "react";
 
-function ProjectCard(props) {
+function ProjectCard( props ) {
   const projectData = props.projectData;
 
   function makeLinks() {
-    if (projectData.links.length > 0) {
-      return projectData.links.map((link, id) => {
-        return (<a key={id} href={link.url}>{link.source}</a>);
-      })
+    if ( projectData.links.length > 0 ) {
+      return projectData.links.map( ( link, id ) => {
+        return ( <a key={id} href={link.url}>{link.source}</a> );
+      } )
     }
   }
 
   function makeTags() {
-    if (projectData.info.tags.length > 0) {
-      return projectData.info.tags.map((tag, id) => {
-        return (<span className="badge badge-pill badge-dark mr-1" key={id}>{tag}</span>);
-      })
+    if ( projectData.info.tags.length > 0 ) {
+      return projectData.info.tags.map( ( tag, id ) => {
+        return ( <span className="badge badge-pill badge-dark mr-1" key={id}>{tag}</span> );
+      } )
     }
   }
-  return (<div className="card shadow">
+  return ( <div className="card shadow">
     <img className="card-img-top" src={"project-media/" + projectData.img_file} alt="180x250 placeholder img"/>
     <div className="card-body">
       <h5 className="card-title">{projectData.project_name}</h5>
@@ -28,7 +28,7 @@ function ProjectCard(props) {
     <div className="card-footer">
       {makeTags()}
     </div>
-  </div>);
+  </div> );
 }
 
 export default ProjectCard;
