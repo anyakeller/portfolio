@@ -21,7 +21,7 @@ function Home(props) {
         </p>
       </div>
       <div className="col mt-3 mt-md-2">
-        <img className="d-block mx-auto" src="https://via.placeholder.com/180x250" alt="180x250 placeholder img"/>
+        <img className="d-block mx-auto" src="placeholder180x250.png" alt="180x250 placeholder img"/>
         <small className="d-block text-center text-muted">This might be my face</small>
       </div>
     </div>
