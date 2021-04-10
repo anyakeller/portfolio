@@ -21,7 +21,7 @@ function Portfolio(props) {
               }}>
               I can sometimes make things
             </p>
-            <small className="text-muted float-right">Disclaimer: I am not that smart. Some of these projects were a team effort</small>
+            <small className="text-muted float-right">stuff</small>
           </div>
         </div>
       </div>
