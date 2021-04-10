@@ -1,13 +1,8 @@
 import React from "react";
 import Projects from "./../projects.json";
-import ProjectCard from "./../components/ProjectCard.js";
+import ProjectSection from "./../components/ProjectSection.js";
 
 function Portfolio(props) {
-  function populateImages() {
-    return Projects.map((project, id) => {
-      return (<ProjectCard key={id} projectData={project}/>);
-    });
-  }
   return (<div>
     <div className="row">
       <div className="col">
@@ -34,7 +29,7 @@ function Portfolio(props) {
     <div className="row my-4">
       <div className="col">
         <div className="card-columns">
-          {populateImages()}
+          <ProjectSection projects={Projects}/>
         </div>
       </div>
     </div>

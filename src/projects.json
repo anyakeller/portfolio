@@ -1,6 +1,7 @@
 [{
     "project_name": "Magic Music Matcher",
     "img_file": "magicMusicMatcherScreenshot.png",
+    "inProgress": false,
     "info": {
       "tags": ["python", "flask", "jquery", "javascript", "html+css"],
       "description": "Web application utilizing python flask for song generation.Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
@@ -13,6 +14,7 @@
   {
     "project_name": "Auto-Balancing Binary Search Tree",
     "img_file": "BSTscreenshot.png",
+    "inProgress": false,
     "info": {
       "tags": ["java"],
       "description": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
@@ -26,6 +28,7 @@
   {
     "project_name": "Tile Puzzle",
     "img_file": "tilePuzzleScreenshot.png",
+    "inProgress": false,
     "info": {
       "tags": ["java"],
       "description": "A 3 by 3 sliding tile puzzle game built using Java. Clickable tiles allow sliding to complete the picture. Two sorting algorithms are available to solve the puzzle move by move.",
@@ -39,6 +42,7 @@
   {
     "project_name": "Star Trek Themed Word Guessing Game",
     "img_file": "hangmanScreenshot.png",
+    "inProgress": false,
     "info": {
       "tags": ["jquery", "javascript", "html+css"],
       "description": "It's hangman. With Star Trek.  Whoop dee doo"
