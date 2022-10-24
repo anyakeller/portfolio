@@ -12,14 +12,14 @@ function Portfolio(props) {
           <div className="mb-3 mb-md-0">
             <h1>
               <small className="text-muted text-small mr-2 d-block d-sm-inline">
-                garbage by
+                projects by
               </small>
               <span className="display-4">Anya Keller</span>
             </h1>
             <p className="lead pl-2" style={{
                 whiteSpace: "pre-line"
               }}>
-              I can sometimes make things
+              Some stuff I've made
             </p>
             <small className="text-muted float-right">stuff</small>
           </div>

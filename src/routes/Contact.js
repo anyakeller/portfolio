@@ -10,16 +10,10 @@ function Contact(props) {
           <div className="mb-3 mb-md-0">
             <h1>
               <small className="text-muted text-small mr-2 d-block d-sm-inline">
-                dare to
+                
               </small>
               <span className="display-4">Contact Me</span>
             </h1>
-            <p className="lead pl-2" style={{
-                whiteSpace: "pre-line"
-              }}>
-              I didn't write my name up there this time so I'm letting you know it's
-              <span className="font-weight-bold">{' '}Anya Keller</span>
-            </p>
           </div>
         </div>
       </div>
@@ -35,11 +29,12 @@ function Contact(props) {
             </h1>
             <dl className="row">
               <dt className="col-sm-3">Email</dt>
-              <dd className="col-sm-9">kelleranyal@gmail.com</dd>
+              <dd className="col-sm-9">alkeller@bu.edu</dd>
 
-              <dt className="col-sm-3">GitHub</dt>
+              <dt className="col-sm-3">Links</dt>
               <dd className="col-sm-9">
-                <a href="https://github.com/anyakeller">anyakeller</a>
+                <a href="https://github.com/anyakeller">Github</a><br/>
+                <a href="https://www.linkedin.com/in/anya-keller-7914b297/">Linkedin</a>
               </dd>
             </dl>
           </div>

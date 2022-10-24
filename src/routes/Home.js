@@ -17,7 +17,8 @@ function Home(props) {
           }}>
           Sometimes I write code.{'\n'}
           Sometimes I make things.{'\n'}
-          But I always desperately need to go back to college
+          Full-stack website developer{'\n'}
+          Mechanical Engineering Undergraduate at Boston University
         </p>
       </div>
       <div className="col mt-3 mt-md-2">
