@@ -1,15 +1,55 @@
-[{
+[
+  {
+    "project_name": "Kite and Rocket Wordpress Theme",
+    "img_file": "kiteandrocketDesktopScreenshot.png",
+    "inProgress": false,
+    "dates":"Aug 2020 to Jul 2021",
+    "info": {
+      "tags": ["PHP", "Wordpress", "Blade", "jquery", "javascript", "html+css", "wistia"],
+      "description": "This project was the complete teardown and reconstruction of the Kite and Rocket website.  Having never used wordpress or PHP before, I was tasked with digging through the source code and figuring out how everything worked under the hood.  In addition to cleaning up layers of overwritten code, updating packages, and redesigning the UI, I implemented mobile-responsive breakpoints, a touchscreen-friendly swipable carousel, video sharing functionality, amongst other improvements.  I also imporved upon the wordpress dashboard interface and created a custom worpress post type plugin.  In the main directory I left a readme file with carful documentation and usage instructions for the next webmaster.  Note: the wesbite in its current state may not accurately reflect the last version I worked on."
+    },
+    "links": [
+      {
+        "source": "github",
+        "url": "https://github.com/anyakeller/k-and-r-revamp"
+      },
+      {
+        "source": "Kite and Rocket Live Website",
+        "url": "http://kiteandrocket.com/"
+      }
+    ]
+  },
+  {
+    "project_name": "Star Trek Themed Word Guessing Game",
+    "img_file": "hangmanScreenshot.png",
+    "inProgress": false,
+    "dates": "Sep 2019",
+    "info": {
+      "tags": ["jquery", "javascript", "html+css"],
+      "description": "It's hangman. With Star Trek.  Whoop dee doo"
+    },
+    "links": [
+      {
+        "source": "github",
+        "url": "https://anyakeller.github.io/word_guess_game/"
+      }
+    ]
+  },
+  {
     "project_name": "Magic Music Matcher",
     "img_file": "magicMusicMatcherScreenshot.png",
     "inProgress": false,
+    "dates":"Jan 2017",
     "info": {
       "tags": ["python", "flask", "jquery", "javascript", "html+css"],
-      "description": "Web application utilizing python flask for song generation.Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
+      "description": "Web application utilizing python flask for song generation.  Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
     },
-    "links": [{
-      "source": "github",
-      "url": "https://github.com/Bayless/The-Chosen-Tarsiers"
-    }]
+    "links": [
+      {
+        "source": "github",
+        "url": "https://github.com/Bayless/The-Chosen-Tarsiers"
+      }
+    ]
   },
   {
     "project_name": "Auto-Balancing Binary Search Tree",
@@ -20,10 +60,12 @@
       "description": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
       "demo_ins": "Run visualizer with $java VisualTree Run sorting algo with $java BST"
     },
-    "links": [{
-      "source": "github",
-      "url": "https://github.com/anyakeller/BST_FP"
-    }]
+    "links": [
+      {
+        "source": "github",
+        "url": "https://github.com/anyakeller/BST_FP"
+      }
+    ]
   },
   {
     "project_name": "Tile Puzzle",
@@ -34,22 +76,11 @@
       "description": "A 3 by 3 sliding tile puzzle game built using Java. Clickable tiles allow sliding to complete the picture. Two sorting algorithms are available to solve the puzzle move by move.",
       "demo_ins": "Compile files using javac and run $java PuzzleWindow to play and $java Puzzle to see the algorithm in action"
     },
-    "links": [{
-      "source": "github",
-      "url": "https://github.com/st234pa/TilePuzzle2"
-    }]
-  },
-  {
-    "project_name": "Star Trek Themed Word Guessing Game",
-    "img_file": "hangmanScreenshot.png",
-    "inProgress": false,
-    "info": {
-      "tags": ["jquery", "javascript", "html+css"],
-      "description": "It's hangman. With Star Trek.  Whoop dee doo"
-    },
-    "links": [{
-      "source": "github",
-      "url": "https://anyakeller.github.io/word_guess_game/"
-    }]
+    "links": [
+      {
+        "source": "github",
+        "url": "https://github.com/st234pa/TilePuzzle2"
+      }
+    ]
   }
 ]
