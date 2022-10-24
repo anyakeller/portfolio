@@ -29,12 +29,12 @@ function ProjectCard(props) {
   return (
     <div className="card shadow">
       <h5 class="card-header">{projectData.project_name}</h5>
-      <img
-        className="card-img-top"
-        src={"project-media/" + projectData.img_file}
-        alt="180x250 placeholder img"
-      />
       <div className="card-body">
+        <img
+          className="card-img"
+          src={"project-media/" + projectData.img_file}
+          alt="180x250 placeholder img"
+        />
         <small className="text-muted">{projectData.dates}</small>
         <p className="card-text">{projectData.info.description}</p>
         {makeLinks()}

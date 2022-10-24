@@ -1,5 +1,21 @@
 [
   {
+    "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
+    "img_file": "chitagRocketStageSetup.jpg",
+    "inProgress": false,
+    "dates":"January 2019 to November 2019",
+    "info": {
+      "tags": ["SolidWorks", "CAD", "CAM", "SolidCam", "Pneumatics", "Lathe", "Mill", "Smooth-On", "3D Printing"],
+      "description": "An 8-foot tall foam rocket used as an attraction at the Chicago Toy and Game Fair.  Participants jump on stomp pads to build air pressure and press a button to launch the rocket.  Mechanism: Jumping on a stomp pad compresses a foot-powered bicycle pump connected to the launcher.  This resets the launcher piston, sealing off the tank.  A check valve allows pressure to equalize in both chambers as pressure builds from the four stomp pads.  Once the desired pressure is achieved, pushing a red button allows air to escape from the stomp pad side, causing the piston to slide back.  The piston movement compresses a spring until a hard stop is hit and the seal is broken almost instantaneously.  The explosive force from the tank launches the rocket."
+    },
+    "links": [
+      {
+        "source": "Video of awards ceremony launch on Kite and Rocket Website",
+        "url": "https://kiteandrocket.com/krvideo/worlds-largest-kid-powered-rocket/"
+      }
+    ]
+  },
+  {
     "project_name": "Kite and Rocket Wordpress Theme",
     "img_file": "kiteandrocketDesktopScreenshot.png",
     "inProgress": false,
