@@ -5,8 +5,9 @@ $hamburger-padding-x: 15px;
 $hamburger-padding-y: 2px;
 $hamburger-layer-height: 3px;
 $hamburger-layer-spacing: 5px;
+$hamburger-layer-color: #fff !default;
 @import "~hamburgers/_sass/hamburgers/hamburgers.scss";
-.navbar-toggler.hamburger:not(.collapsed){
+.navbar-toggler.hamburger:not(.collapsed) {
   @extend .is-active;
 }
 
