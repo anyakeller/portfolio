@@ -10,9 +10,9 @@ export default function Nav() {
 
       <button
         className="navbar-toggler hamburger collapsed hamburger--squeeze"
+        data-target="#navbar-collapse-content"
         data-toggle="collapse"
         type="button"
-        data-target="#navbar-collapse-content"
         aria-controls="navbar-collapse-content"
         aria-expanded="false"
         aria-label="Toggle navigation">
@@ -36,7 +36,10 @@ export default function Nav() {
             activeClassName="active">
             Portfolio
           </NavLink>
-          <NavLink to="/contact" className="nav-link" activeClassName="active">
+          <NavLink
+            to="/contact"
+            className="nav-link"
+            activeClassName="active">
             Contact
           </NavLink>
         </div>

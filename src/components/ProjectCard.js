@@ -28,7 +28,7 @@ function ProjectCard(props) {
   }
   return (
     <div className="card shadow">
-      <h5 class="card-header">{projectData.project_name}</h5>
+      <h5 className="card-header">{projectData.project_name}</h5>
       <div className="card-body">
         <img
           className="card-img"
