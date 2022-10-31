@@ -1,7 +1,8 @@
 [
   {
     "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
-    "img_file": "chitagRocketStageSetup.jpg",
+    "image_folder_path": "chitag_rocket/",
+    "image_files": ["chitagRocketStageSetup.jpg","handlebarGuardCAM.jpg"],
     "inProgress": false,
     "dates": "January 2019 to November 2019",
     "info": {
@@ -31,7 +32,8 @@
   },
   {
     "project_name": "Vacuum Splint",
-    "img_file": "vacuumsplint.jpg",
+    "image_folder_path": "",
+    "image_files": ["vacuumsplint.jpg"],
     "inProgress": false,
     "dates": "April 2021 to July 2021",
     "info": {
@@ -57,7 +59,8 @@
   },
   {
     "project_name": "Kite and Rocket Wordpress Theme",
-    "img_file": "kiteandrocketDesktopScreenshot.png",
+    "image_folder_path": "",
+    "image_files": ["kiteandrocketDesktopScreenshot.png"],
     "inProgress": false,
     "dates": "Aug 2020 to Jul 2021",
     "info": {
@@ -85,7 +88,8 @@
   },
   {
     "project_name": "Star Trek Themed Word Guessing Game",
-    "img_file": "hangmanScreenshot.png",
+    "image_folder_path": "",
+    "image_files": ["hangmanScreenshot.png"],
     "inProgress": false,
     "dates": "Sep 2019",
     "info": {
@@ -101,7 +105,8 @@
   },
   {
     "project_name": "Magic Music Matcher",
-    "img_file": "magicMusicMatcherScreenshot.png",
+    "image_folder_path": "",
+    "image_files": ["magicMusicMatcherScreenshot.png"],
     "inProgress": false,
     "dates": "Jan 2017",
     "info": {
@@ -117,7 +122,8 @@
   },
   {
     "project_name": "Auto-Balancing Binary Search Tree",
-    "img_file": "BSTscreenshot.png",
+    "image_folder_path": "",
+    "image_files": ["BSTscreenshot.png"],
     "inProgress": false,
     "info": {
       "tags": ["java"],
@@ -133,7 +139,8 @@
   },
   {
     "project_name": "Tile Puzzle",
-    "img_file": "tilePuzzleScreenshot.png",
+    "image_folder_path": "",
+    "image_files": ["tilePuzzleScreenshot.png"],
     "inProgress": false,
     "info": {
       "tags": ["java"],
