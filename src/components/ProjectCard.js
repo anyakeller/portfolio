@@ -7,7 +7,7 @@ function ProjectCard(props) {
     if (projectData.links.length > 0) {
       return projectData.links.map((link, id) => {
         return (
-          <a className="d-block" key={id} href={link.url}>
+          <a className="d-block" key={id} href={link.url} target="_blank">
             {link.source}
           </a>
         );
