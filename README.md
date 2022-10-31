@@ -3,6 +3,8 @@
 My portfolio/website built using the React framework
 
 TODO: 
+- Switch to bootstrap 5.2
+- Fix bad routing
 - close nav dropdown on nav
 
 notes to self:
