@@ -12,18 +12,18 @@ export default function Nav() {
 
 /*
 
-      <button
-        className="navbar-toggler hamburger collapsed hamburger--squeeze"
-        data-target="#navbar-collapse-content"
-        data-toggle="collapse"
-        type="button"
-        aria-controls="navbar-collapse-content"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span className="hamburger-box">
-          <span className="hamburger-inner"></span>
-        </span>
-      </button>
+        <button
+          className="navbar-toggler hamburger collapsed hamburger--squeeze"
+          data-target="#navbar-collapse-content"
+          data-toggle="collapse"
+          type="button"
+          aria-controls="navbar-collapse-content"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>
+        </button>
 
       <div className="collapse navbar-collapse" id="navbar-collapse-content">
         <ul className="navbar-nav">
