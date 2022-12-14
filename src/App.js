@@ -9,7 +9,7 @@ function App() {
       <div className="container pt-3 pb-2">
         <Home />
       </div>
-      <div className="container pt-3 pb-2">
+      <div className="container mt-3 pt-3 pb-2">
         <Portfolio />
       </div>
     </div>
