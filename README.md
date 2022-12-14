@@ -15,6 +15,7 @@ TODO:
 - Redo project view layout
 - Make dedicated view for project details
 - Implement navigation
+- get rid of router dependencies
 
 
 I'm using npm not yarn
