@@ -12,6 +12,9 @@ Projects automatically populate just:
 ## Notes to Self:
 TODO: 
 - Switch to bootstrap 5.2
+- Redo project view layout
+- Make dedicated view for project details
+- Implement navigation
 
 
 I'm using npm not yarn
