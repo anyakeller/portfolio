@@ -21,14 +21,21 @@ function Home(props) {
               whiteSpace: "pre-line"
             }}>
             Sometimes I make things.{"\n"}
+            Sometimes I design things.{"\n"}
             Sometimes I write code.{"\n"}
             {"\n"}
             Mechanical Engineering Undergraduate at Boston University{"\n"}
             Full-stack website developer{"\n"}
           </p>
-          <span className="text-center text-md-left ">
+          <span className="d-flex justify-content-around text-center">
             <a href="Anya%20Keller%20BU%20Resume.pdf" download>
-              <i className="fa-sharp fa-solid fa-file-arrow-down"></i> Resume
+              <i className="fa-solid fa-file-arrow-down"></i> Resume
+            </a>
+            <a href="https://github.com/anyakeller">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+            <a href="https://www.linkedin.com/in/anya-keller-7914b297/">
+              <i class="fa-brands fa-linkedin"></i> Linkedin
             </a>
           </span>
         </div>
