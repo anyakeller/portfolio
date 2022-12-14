@@ -3,11 +3,12 @@ import Projects from "./../projects.json";
 import ProjectSection from "./../components/ProjectSection.js";
 
 function Portfolio(props) {
-  return (<div>
+  return (
+  <div>
     <div className="row">
       <div className="col">
         <div className="bg-gradient-light mx-auto shadow-sm px-4 py-4 clearfix" style={{
-            maxWidth: "690px"
+            maxWidth: "600px"
           }}>
           <div className="mb-3 mb-md-0">
             <h1>
@@ -19,7 +20,7 @@ function Portfolio(props) {
             <p className="lead pl-2" style={{
                 whiteSpace: "pre-line"
               }}>
-              Some stuff I've made
+              Some stuff I've built
             </p>
             <small className="text-muted float-right">stuff</small>
           </div>

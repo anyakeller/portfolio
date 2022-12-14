@@ -5,7 +5,7 @@ function ImageCarousel(props) {
   const imageFolderPath = props.image_folder_path;
 
   function makeImages() {
-    if (imageFiles.length == 1) {
+    if (imageFiles.length === 1) {
       return (
         <img
           className="card-img"

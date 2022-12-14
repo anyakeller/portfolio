@@ -1,12 +1,16 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/">
+      <a className="navbar-brand" href="/portfolio">
         Anya Keller
-      </Link>
+      </a>
+    </nav>
+  );
+}
+
+/*
 
       <button
         className="navbar-toggler hamburger collapsed hamburger--squeeze"
@@ -22,28 +26,19 @@ export default function Nav() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbar-collapse-content">
-        <div className="navbar-nav">
-          <NavLink
-            exact={true}
-            to="/"
-            className="nav-link"
-            activeClassName="active">
-            Home
-          </NavLink>
-          <NavLink
-            to="/portfolio"
-            className="nav-link"
-            activeClassName="active">
-            Portfolio
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="nav-link"
-            activeClassName="active">
-            Contact
-          </NavLink>
-        </div>
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="/portfolio">
+              {" "}
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/portfolio">
+              {" "}
+              Portfolio
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  );
-}
+*/

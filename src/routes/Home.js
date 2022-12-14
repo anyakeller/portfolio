@@ -32,10 +32,10 @@ function Home(props) {
               <i className="fa-solid fa-file-arrow-down"></i> Resume
             </a>
             <a href="https://github.com/anyakeller">
-              <i class="fa-brands fa-github"></i> Github
+              <i className="fa-brands fa-github"></i> Github
             </a>
             <a href="https://www.linkedin.com/in/anya-keller-7914b297/">
-              <i class="fa-brands fa-linkedin"></i> Linkedin
+              <i className="fa-brands fa-linkedin"></i> Linkedin
             </a>
           </span>
         </div>
