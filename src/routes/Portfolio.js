@@ -23,12 +23,8 @@ function Portfolio(props) {
         </div>
       </div>
     </div>
-    <div className="row my-4">
-      <div className="col">
-        <div className="card-columns">
-          <ProjectSection projects={Projects}/>
-        </div>
-      </div>
+    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <ProjectSection projects={Projects}/>
     </div>
   </div>)
 }

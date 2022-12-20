@@ -20,7 +20,7 @@ function ProjectCard(props) {
     if (projectData.info.tags.length > 0) {
       return projectData.info.tags.map((tag, id) => {
         return (
-          <span className="badge badge-pill badge-dark mr-1" key={id}>
+          <span className="badge rounded-pill bg-dark me-1" key={id}>
             {tag}
           </span>
         );
@@ -28,15 +28,20 @@ function ProjectCard(props) {
     }
   }
   return (
-    <div className="card shadow">
-      <h5 className="card-header">{projectData.project_name}</h5>
-      <div className="card-body">
-        <ImageCarousel imageFiles={projectData.image_files} image_folder_path={projectData.image_folder_path} />
-        <small className="text-muted">{projectData.dates}</small>
-        <p className="card-text">{projectData.info.description}</p>
-        {makeLinks()}
+    <div className="col my-1">
+      <div className="card shadow h-100">
+        <h5 className="card-header">{projectData.project_name}</h5>
+        <div className="card-body">
+          <ImageCarousel
+            imageFiles={projectData.image_files}
+            image_folder_path={projectData.image_folder_path}
+          />
+          <small className="text-muted">{projectData.dates}</small>
+          <p className="card-text">{projectData.info.description}</p>
+          {makeLinks()}
+        </div>
+        <div className="card-footer">{makeTags()}</div>
       </div>
-      <div className="card-footer">{makeTags()}</div>
     </div>
   );
 }

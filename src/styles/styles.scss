@@ -15,11 +15,13 @@ button:focus {
   outline: none;
 }
 
+/*
 .card-columns {
   @include media-breakpoint-only(sm) {
     column-count: 2;
   }
-  @include media-breakpoint-only(md) {
+  @include media-breakpoint-up(md) {
     column-count: 3;
   }
 }
+*/
