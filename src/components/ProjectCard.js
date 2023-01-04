@@ -1,5 +1,4 @@
 import React from "react";
-import ImageCarousel from "./ImageCarousel.js";
 
 function ProjectCard(props) {
   const projectData = props.projectData;
@@ -32,9 +31,15 @@ function ProjectCard(props) {
       <div className="card shadow h-100">
         <h5 className="card-header">{projectData.project_name}</h5>
         <div className="card-body">
-          <ImageCarousel
-            imageFiles={projectData.image_files}
-            image_folder_path={projectData.image_folder_path}
+          <img
+            className="card-img"
+            src={
+              process.env.PUBLIC_URL +
+              "/project-media/" +
+              projectData.image_folder_path +
+              projectData["image_files"][0]
+            }
+            alt={projectData["image_files"][0]}
           />
           <small className="text-muted">{projectData.dates}</small>
           <p className="card-text">{projectData.info.description}</p>
