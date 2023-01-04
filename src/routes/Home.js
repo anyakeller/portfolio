@@ -13,7 +13,7 @@ function Home(props) {
             <small className="text-muted text-small mr-2 d-block d-sm-inline">
               a bit about
             </small>
-            <span className="display-4">Anya Keller</span>
+            <span className="display-5"> Anya Keller</span>
           </h1>
           <p
             className="lead pl-2 mt-2"
