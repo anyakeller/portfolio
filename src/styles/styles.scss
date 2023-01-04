@@ -15,6 +15,9 @@ button:focus {
   outline: none;
 }
 
+a {
+  text-decoration: none !important;
+}
 /*
 .card-columns {
   @include media-breakpoint-only(sm) {

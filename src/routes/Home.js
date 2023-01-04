@@ -42,7 +42,7 @@ function Home(props) {
         <div className="col d-flex flex-column justify-content-center px-5 px-md-1 mt-3 mt-md-2">
           <img
             className="d-block mx-auto img-fluid"
-            src="lathework.jpg"
+            src={process.env.PUBLIC_URL + "/lathework.jpg"}
             alt="profile img"
           />
           <small className="d-block text-center text-muted">

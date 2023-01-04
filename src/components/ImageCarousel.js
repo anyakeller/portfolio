@@ -9,7 +9,7 @@ function ImageCarousel(props) {
       return (
         <img
           className="card-img"
-          src={"project-media/" + imageFolderPath + imageFiles[0]}
+          src={"/project-media/" + imageFolderPath + imageFiles[0]}
           alt="180x250 placeholder img"
         />
       );
@@ -17,7 +17,7 @@ function ImageCarousel(props) {
     return (
       <img
         className="card-img"
-        src={"project-media/" + imageFolderPath + imageFiles[0]}
+        src={"/project-media/" + imageFolderPath + imageFiles[0]}
         alt="180x250 placeholder img"
       />
     );
@@ -50,8 +50,8 @@ function ImageCarousel(props) {
   return (
     <img
       className="card-img"
-      src={"project-media/" + imageFolderPath + imageFiles[0]}
-      alt="180x250 placeholder img"
+      src={process.env.PUBLIC_URL + "/project-media/" + imageFolderPath + imageFiles[0]}
+      alt={imageFiles[0]}
     />
   );
 }
