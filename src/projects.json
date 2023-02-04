@@ -1,8 +1,31 @@
 [
   {
+    "project_name": "Gasket for ME360",
+    "image_folder_path": "",
+    "image_files": ["gasket-drawing.jpg"],
+    "inProgress": false,
+    "dates": "Jan 2023",
+    "info": {
+      "tags": [
+        "SolidWorks",
+        "CAD",
+        "CAM",
+        "GibbsCam",
+        "Measuement"
+      ],
+      "description": "This gasket was the product of an assignment for a course at Boston University, Electromechanical Design.  I was given a metal part and tasked with producing a gasket which would match it to 0.005\" of an inch.  I took measuements with a caliper set and created a CAD file for the gasket, using ANSI fit standards as a guide.  From the CAD I created a CAM file and machined the part out of 1/32\" PVC."
+    },
+    "links": [
+      {
+        "source": "Related CAD, CAM, and image Files",
+        "url": "https://drive.google.com/drive/folders/1fpWwhp8ZB6UEoqHbCn-4dvcjxxiQwDuY?usp=sharing"
+      }
+    ]
+  },
+  {
     "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
     "image_folder_path": "chitag_rocket/",
-    "image_files": ["chitagRocketStageSetup.jpg","handlebarGuardCAM.jpg"],
+    "image_files": ["chitagRocketStageSetup.jpg", "handlebarGuardCAM.jpg"],
     "inProgress": false,
     "dates": "January 2019 to November 2019",
     "info": {
