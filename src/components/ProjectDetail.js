@@ -1,12 +1,22 @@
 import React from "react";
 import ImageCarousel from "./ImageCarousel.js";
-import { Button, Modal } from "react-bootstrap";
+import { Modal, Container, Row, Col } from "react-bootstrap";
 
 function ProjectDetail(props) {
   // const toggleDetails = () => setProjectDetailModal(!projectDetailModal);
-  const projectDetailModalShow= props.projectDetailModalShow;
+  const projectDetailModalShow = props.projectDetailModalShow;
   const handleClose = props.handleClose;
   let projectData = props.projectData;
+
+  function makeParagraphs() {
+    return props.selectedProject.info.description.verbose.map((paragraph, id) => {
+      return (
+        <p>
+          {paragraph}
+        </p>
+      );
+    });
+  }
 
   console.log(props.selectedProject);
   return (
@@ -14,15 +24,19 @@ function ProjectDetail(props) {
       <Modal.Header closeButton>
         <Modal.Title>{props.selectedProject.project_name}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>{props.selectedProject.info.description.brief}.</Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-        <Button variant="primary" onClick={handleClose}>
-          Save Changes
-        </Button>
-      </Modal.Footer>
+      <Modal.Body>
+        <Container fluid>
+          <Row>
+            <Col>
+              <small>{props.selectedProject.info.description.brief}</small>
+            </Col>
+          </Row>
+          <Row>
+            <Col>{makeParagraphs()}</Col>
+          </Row>
+        </Container>
+      </Modal.Body>
+      <Modal.Footer></Modal.Footer>
     </Modal>
   );
 }
