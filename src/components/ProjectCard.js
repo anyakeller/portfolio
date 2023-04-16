@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/image";
+import '../styles/projectcard-styles.css';
 
 function ProjectCard(props) {
   const projectData = props.projectData;
@@ -30,7 +31,7 @@ function ProjectCard(props) {
 
   return (
     <div className="col my-1">
-      <div className="card shadow h-100" onClick={() => props.handleProjectClick(projectData)}>
+      <div className="card shadow h-100 project-card" onClick={() => props.handleProjectClick(projectData)} role="button">
         <h5 className="card-header">{projectData.project_name}</h5>
         <div className="card-body">
           <Image
