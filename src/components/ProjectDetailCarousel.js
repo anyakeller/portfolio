@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
 export default function ProjectDetailCarousel(props) {
@@ -13,7 +13,7 @@ export default function ProjectDetailCarousel(props) {
       (img_file, id) => {
         return (
           <Carousel.Item key={id}>
-            <img
+            <Image 
               className="d-block w-100"
               src={
                 process.env.PUBLIC_URL +
@@ -29,5 +29,5 @@ export default function ProjectDetailCarousel(props) {
   }
 
   console.log(props.selectedProject);
-  return <Carousel>{makeSlides()}</Carousel>;
+  return <Carousel >{makeSlides()}</Carousel>;
 }

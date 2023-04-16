@@ -15,7 +15,7 @@ function ProjectDetail(props) {
   }
 
   return (
-    <Modal show={projectDetailModalShow} onHide={handleClose}>
+    <Modal size="lg" show={projectDetailModalShow} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>{props.selectedProject.project_name}</Modal.Title>
       </Modal.Header>
@@ -23,15 +23,16 @@ function ProjectDetail(props) {
         <Container fluid>
           <Row>
             <Col>
-              <small>{props.selectedProject.info.description.brief}</small>
+              <p> {props.selectedProject.info.description.brief}</p>
             </Col>
           </Row>
-          <Row>
-            <Col>
-             <ProjectDetailCarousel imageFiles={props.selectedProject.image_files} image_folder_path={props.selectedProject.image_folder_path} />
+          <Row className="align-items-center justify-content-center" style={{ minHeight: '50vh' }}>
+            <Col lg="5">
+              <ProjectDetailCarousel
+                imageFiles={props.selectedProject.image_files}
+                image_folder_path={props.selectedProject.image_folder_path}
+              />
             </Col>
-          </Row>
-          <Row>
             <Col>{makeParagraphs()}</Col>
           </Row>
         </Container>

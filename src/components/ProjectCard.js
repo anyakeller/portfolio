@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "react-bootstrap/image";
 
 function ProjectCard(props) {
   const projectData = props.projectData;
@@ -32,7 +33,7 @@ function ProjectCard(props) {
       <div className="card shadow h-100" onClick={() => props.handleProjectClick(projectData)}>
         <h5 className="card-header">{projectData.project_name}</h5>
         <div className="card-body">
-          <img
+          <Image
             className="card-img"
             src={
               process.env.PUBLIC_URL +
