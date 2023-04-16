@@ -14,6 +14,30 @@ function ProjectDetail(props) {
     );
   }
 
+  function makeLinks() {
+    if (props.selectedProject.links.length > 0) {
+      return props.selectedProject.links.map((link, id) => {
+        return (
+          <a className="d-block" key={id} href={link.url} target="_blank">
+            {link.source}
+          </a>
+        );
+      });
+    }
+  }
+
+  function makeTags() {
+    if (props.selectedProject.info.tags.length > 0) {
+      return props.selectedProject.info.tags.map((tag, id) => {
+        return (
+          <span className="badge rounded-pill bg-dark me-1" key={id}>
+            {tag}
+          </span>
+        );
+      });
+    }
+  }
+
   return (
     <Modal size="lg" show={projectDetailModalShow} onHide={handleClose}>
       <Modal.Header closeButton>
@@ -26,7 +50,8 @@ function ProjectDetail(props) {
               <p> {props.selectedProject.info.description.brief}</p>
             </Col>
           </Row>
-          <Row className="align-items-center justify-content-center" style={{ minHeight: '50vh' }}>
+          <Row
+            className="align-items-center justify-content-center">
             <Col lg="5">
               <ProjectDetailCarousel
                 imageFiles={props.selectedProject.image_files}
@@ -35,9 +60,12 @@ function ProjectDetail(props) {
             </Col>
             <Col className="py-4 py-lg-0">{makeParagraphs()}</Col>
           </Row>
+          <Row className="pt-3">
+            <Col>{makeLinks()}</Col>
+          </Row>
         </Container>
       </Modal.Body>
-      <Modal.Footer></Modal.Footer>
+      <Modal.Footer className="justify-content-center">{makeTags()}</Modal.Footer>
     </Modal>
   );
 }

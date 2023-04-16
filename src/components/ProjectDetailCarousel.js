@@ -5,8 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 export default function ProjectDetailCarousel(props) {
   const imageFiles = props.imageFiles;
   const image_folder_path = props.image_folder_path;
-  console.log(imageFiles);
-  console.log(image_folder_path);
 
   function makeSlides() {
     return imageFiles.map(
@@ -28,6 +26,5 @@ export default function ProjectDetailCarousel(props) {
     );
   }
 
-  console.log(props.selectedProject);
   return <Carousel >{makeSlides()}</Carousel>;
 }
