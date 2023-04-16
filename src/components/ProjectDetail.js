@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal, Container, Row, Col } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 import ProjectDetailCarousel from "./ProjectDetailCarousel.js";
 
 function ProjectDetail(props) {
@@ -40,32 +41,41 @@ function ProjectDetail(props) {
 
   return (
     <Modal size="lg" show={projectDetailModalShow} onHide={handleClose}>
-      <Modal.Header closeButton>
-        <Modal.Title>{props.selectedProject.project_name}</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <Container fluid>
-          <Row>
-            <Col>
-              <p> {props.selectedProject.info.description.brief}</p>
-            </Col>
-          </Row>
-          <Row
-            className="align-items-center justify-content-center">
-            <Col lg="5">
-              <ProjectDetailCarousel
-                imageFiles={props.selectedProject.image_files}
-                image_folder_path={props.selectedProject.image_folder_path}
-              />
-            </Col>
-            <Col className="py-4 py-lg-0">{makeParagraphs()}</Col>
-          </Row>
-          <Row className="pt-3">
-            <Col>{makeLinks()}</Col>
-          </Row>
-        </Container>
-      </Modal.Body>
-      <Modal.Footer className="justify-content-center">{makeTags()}</Modal.Footer>
+      <Card>
+        <Modal.Header closeButton className="py-2">
+          <small className="text-muted">{props.selectedProject.dates}</small>
+        </Modal.Header>
+        <Modal.Body>
+          <Modal.Title className="text-center">{props.selectedProject.project_name}</Modal.Title>
+          <Container fluid>
+            <Row>
+              <Col>
+                <p> {props.selectedProject.info.description.brief}</p>
+              </Col>
+            </Row>
+            <Row className="align-items-center justify-content-center">
+              <Col lg={8}>
+                <ProjectDetailCarousel
+                  imageFiles={props.selectedProject.image_files}
+                  image_folder_path={props.selectedProject.image_folder_path}
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col className="text-center"></Col>
+            </Row>
+            <Row>
+              <Col className="pt-4">{makeParagraphs()}</Col>
+            </Row>
+            <Row className="pt-1">
+              <Col>{makeLinks()}</Col>
+            </Row>
+          </Container>
+        </Modal.Body>
+        <Modal.Footer className="justify-content-center">
+          {makeTags()}
+        </Modal.Footer>
+      </Card>
     </Modal>
   );
 }

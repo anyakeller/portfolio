@@ -35,12 +35,12 @@ function Portfolio(props) {
                 }}>
                 Some stuff I've built
               </p>
-              <small className="text-muted float-right">stuff</small>
+              <small className="text-muted float-right">Click a project tile for details</small>
             </div>
           </div>
         </div>
       </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
         <ProjectSection projects={Projects} handleProjectClick={handleProjectClick}/>
       </div>
     </div>
