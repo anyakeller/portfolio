@@ -2,37 +2,53 @@ import React from "react";
 
 function ImageCarousel(props) {
   const imageFiles = props.imageFiles;
-  const imageFolderPath = props.image_folder_path;
+  const image_folder_path = props.image_folder_path;
 
   function makeImages() {
     if (imageFiles.length === 1) {
       return (
         <img
           className="card-img"
-          src={"/project-media/" + imageFolderPath + imageFiles[0]}
+          src={
+            process.env.PUBLIC_URL +
+            "/project-media/" +
+            image_folder_path +
+            imageFiles[0]
+          }
           alt="180x250 placeholder img"
         />
       );
     }
+    /*
     return (
       <img
         className="card-img"
-        src={"/project-media/" + imageFolderPath + imageFiles[0]}
+        src={
+          process.env.PUBLIC_URL +
+          "/project-media/" +
+          image_folder_path +
+          imageFiles[0]
+        }
         alt="180x250 placeholder img"
       />
-    );
-    /*
+    );*/
+
     return imageFiles.map((img_file, id) => {
       return (
         <div className="carousel-item" key={id}>
           <img
             className={` d-block w-100 card-img ${id === 0 ? "active" : ""}`}
-            src={"project-media/" + imageFolderPath + img_file}
+            src={
+              process.env.PUBLIC_URL +
+              "/project-media/" +
+              image_folder_path +
+              img_file
+            }
             alt="180x250 placeholder img"
           />
         </div>
       );
-    });*/
+    });
   }
 
   function makeIndicators() {
@@ -48,11 +64,12 @@ function ImageCarousel(props) {
   }
 
   return (
-    <img
-      className="card-img"
-      src={process.env.PUBLIC_URL + "/project-media/" + imageFolderPath + imageFiles[0]}
-      alt={imageFiles[0]}
-    />
+    <div
+      id="carouselExampleControls"
+      className="carousel slide"
+      data-bs-ride="carousel">
+      <div className="carousel-inner">{makeImages()}</div>
+    </div>
   );
 }
 

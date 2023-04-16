@@ -26,9 +26,10 @@ function ProjectCard(props) {
       });
     }
   }
+
   return (
     <div className="col my-1">
-      <div className="card shadow h-100">
+      <div className="card shadow h-100" onClick={() => props.handleProjectClick("yeet")}>
         <h5 className="card-header">{projectData.project_name}</h5>
         <div className="card-body">
           <img
