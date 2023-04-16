@@ -33,7 +33,7 @@ function ProjectDetail(props) {
                 image_folder_path={props.selectedProject.image_folder_path}
               />
             </Col>
-            <Col>{makeParagraphs()}</Col>
+            <Col className="py-4 py-lg-0">{makeParagraphs()}</Col>
           </Row>
         </Container>
       </Modal.Body>
