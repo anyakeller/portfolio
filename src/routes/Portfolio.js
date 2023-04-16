@@ -5,7 +5,7 @@ import ProjectDetail from "./../components/ProjectDetail.js";
 
 function Portfolio(props) {
   const [projectDetailModalShow, setProjectDetailModalShow] = useState(false);
-  const [selectedProject, setSelectedProject] = useState("asdfasd");
+  const [selectedProject, setSelectedProject] = useState(Projects[0]);
   const handleProjectClick = (projectDetails) => {
     setProjectDetailModalShow(true);
     setSelectedProject(projectDetails);
@@ -14,8 +14,8 @@ function Portfolio(props) {
 
   return (
     <div>
-    
-      <ProjectDetail handleClose={handleClose} projectDetailModalShow={projectDetailModalShow} selectedProject={"asdfasd"}/>
+
+      <ProjectDetail handleClose={handleClose} projectDetailModalShow={projectDetailModalShow} selectedProject={selectedProject}/>
 
       <div className="row">
         <div className="col">

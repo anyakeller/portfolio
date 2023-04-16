@@ -8,12 +8,13 @@ function ProjectDetail(props) {
   const handleClose = props.handleClose;
   let projectData = props.projectData;
 
+  console.log(props.selectedProject);
   return (
     <Modal show={projectDetailModalShow} onHide={handleClose}>
       <Modal.Header closeButton>
-        <Modal.Title>Tile {props.selectedProject}</Modal.Title>
+        <Modal.Title>{props.selectedProject.project_name}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>This is the content of Tile {props.selectedProject}.</Modal.Body>
+      <Modal.Body>{props.selectedProject.info.description}.</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
           Close
