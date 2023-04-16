@@ -14,7 +14,7 @@ function ProjectDetail(props) {
       <Modal.Header closeButton>
         <Modal.Title>{props.selectedProject.project_name}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>{props.selectedProject.info.description}.</Modal.Body>
+      <Modal.Body>{props.selectedProject.info.description.brief}.</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
           Close

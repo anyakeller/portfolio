@@ -43,7 +43,7 @@ function ProjectCard(props) {
             alt={projectData["image_files"][0]}
           />
           <small className="text-muted">{projectData.dates}</small>
-          <p className="card-text">{projectData.info.description}</p>
+          <p className="card-text">{projectData.info.description.brief}</p>
           {makeLinks()}
         </div>
         <div className="card-footer">{makeTags()}</div>
