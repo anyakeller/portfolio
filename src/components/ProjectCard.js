@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "react-bootstrap/image";
+import "../styles/projectcard-styles.css";
+import ListGroup from "react-bootstrap/ListGroup";
 
 function ProjectCard(props) {
   const projectData = props.projectData;
@@ -26,12 +29,18 @@ function ProjectCard(props) {
       });
     }
   }
+
   return (
     <div className="col my-1">
-      <div className="card shadow h-100">
-        <h5 className="card-header">{projectData.project_name}</h5>
+      <div
+        className="card shadow h-100 project-card"
+        onClick={() => props.handleProjectClick(projectData)}
+        role="button">
+        <small className="card-header text-center"> {projectData.dates}</small>
+     
         <div className="card-body">
-          <img
+        <h5 className="card-title text-center mb-3">{projectData.project_name}</h5>
+          <Image
             className="card-img"
             src={
               process.env.PUBLIC_URL +
@@ -41,10 +50,11 @@ function ProjectCard(props) {
             }
             alt={projectData["image_files"][0]}
           />
-          <small className="text-muted">{projectData.dates}</small>
-          <p className="card-text">{projectData.info.description}</p>
-          {makeLinks()}
+          <p className="card-text mt-4">{projectData.info.description.brief}</p>
         </div>
+        <ul className="list-group list-group-flush">
+          <ListGroup.Item>{makeLinks()}</ListGroup.Item>
+        </ul>
         <div className="card-footer">{makeTags()}</div>
       </div>
     </div>

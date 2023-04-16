@@ -40,7 +40,13 @@
         "Smooth-On",
         "3D Printing"
       ],
-      "description": "An 8-foot tall foam rocket used as an attraction at the Chicago Toy and Game Fair.  Participants jump on stomp pads to build air pressure and press a button to launch the rocket.  Mechanism: Jumping on a stomp pad compresses a foot-powered bicycle pump connected to the launcher.  This resets the launcher piston, sealing off the tank.  A check valve allows pressure to equalize in both chambers as pressure builds from the four stomp pads.  Once the desired pressure is achieved, pushing a red button allows air to escape from the stomp pad side, causing the piston to slide back.  The piston movement compresses a spring until a hard stop is hit and the seal is broken almost instantaneously.  The explosive force from the tank launches the rocket."
+      "description": {
+        "brief": "An 8-foot tall foam rocket used as an attraction at the Chicago Toy and Game Fair.",
+        "verbose": [
+          "Participants jumped on stomp pads to build air pressure and press a button to launch the rocket.",
+          "Mechanism: Jumping on a stomp pad compresses a foot-powered bicycle pump connected to the launcher.  This resets the launcher piston, sealing off the tank.  A check valve allows pressure to equalize in both chambers as pressure builds from the four stomp pads.  Once the desired pressure is achieved, pushing a red button allows air to escape from the stomp pad side, causing the piston to slide back.  The piston movement compresses a spring until a hard stop is hit and the seal is broken almost instantaneously.  The explosive force from the tank launches the rocket."
+        ]
+      }
     },
     "links": [
       {
@@ -71,7 +77,13 @@
         "Lathe",
         "Mill"
       ],
-      "description": "This device addresses the symptoms of Peyronie's disease which is caused by scar formation on the penis.  The scar tissue creates exaggerated bends in the tissue and can be extremely painful.  The project was proposed by a doctor in the field who believed that the current solutions were bulky and ineffective.  I came up with a modularized mechanical solution to the problem inspired by the splint I used when I broke my hand.  The design consists of a foam pad which puts pressure on the bend and can be adjusted by thumbscrew.  The housing was FDM 3D printed.  To maintain the required vacuum seal, I turned multiple segments of polycarbonate tube which could be stacked together and interface with the vacuum pump.  By request, I started another prototype for a balloon-style pressure mechanism.  To manufature the balloon, I tried to rotocast urethane with a mechanism I built, but could not achieve a consitent wall thickness.  My final mold design before leaving the project required a polyurethane melt-away core (expensive, I know), but we found the inflation to be difficult to control, inconsistent, and potentialy dangerous.  The client ultimately agreed that a mechanical screw mechanism would be the preferred choice."
+      "description": {
+        "brief": "This device addresses the symptoms of Peyronie's disease which is caused by scar tissue formation on the penis.",
+        "verbose": [
+          "The project was proposed by a doctor in the field who believed that the current solutions were bulky and ineffective.  I came up with a modularized mechanical solution to the problem inspired by the splint I used when I broke my hand.",
+          "The design consists of a foam pad which puts pressure on the bend and can be adjusted by thumbscrew.  The housing was FDM 3D printed.  To maintain the required vacuum seal, I turned multiple segments of polycarbonate tube which could be stacked together and interface with the vacuum pump.  By request, I started another prototype for a balloon-style pressure mechanism.  To manufature the balloon, I tried to rotocast urethane with a mechanism I built, but could not achieve a consitent wall thickness.  My final mold design before leaving the project required a polyurethane melt-away core (expensive, I know), but we found the inflation to be difficult to control, inconsistent, and potentialy dangerous.  The client ultimately agreed that a mechanical screw mechanism would be the preferred choice."
+        ]
+      }
     },
     "links": [
       {
@@ -96,7 +108,12 @@
         "html+css",
         "wistia"
       ],
-      "description": "This project was the complete teardown and reconstruction of the Kite and Rocket website.  Having never used wordpress or PHP before, I was tasked with digging through the source code and figuring out how everything worked under the hood.  In addition to cleaning up layers of overwritten code, updating packages, and redesigning the UI, I implemented mobile-responsive breakpoints, a touchscreen-friendly swipeable carousel, video sharing functionality, amongst other improvements.  I also improved upon the wordpress dashboard interface and created a custom wordpress post type plugin.  In the main directory I left a readme file with careful documentation and usage instructions for the next webmaster.  Note: the website in its current state may not accurately reflect the last version I worked on."
+      "description": {
+        "brief": "This project entailed the complete teardown and reconstruction of the Kite and Rocket website.",
+        "verbose": [
+          "Having never used wordpress or PHP before, I was tasked with digging through the source code and figuring out how everything worked under the hood.  In addition to cleaning up layers of overwritten code, updating packages, and redesigning the UI, I implemented mobile-responsive breakpoints, a touchscreen-friendly swipeable carousel, video sharing functionality, amongst other improvements.  I also improved upon the wordpress dashboard interface and created a custom wordpress post type plugin.  In the main directory I left a readme file with careful documentation and usage instructions for the next webmaster.  Note: the website in its current state may not accurately reflect the last version I worked on."
+        ]
+      }
     },
     "links": [
       {
@@ -117,7 +134,10 @@
     "dates": "Sep 2019",
     "info": {
       "tags": ["jquery", "javascript", "html+css"],
-      "description": "It's hangman. With Star Trek.  Whoop dee doo"
+      "description": {
+        "brief": "It's hangman. With Star Trek.",
+        "verbose": ["Whoop dee doo."]
+      }
     },
     "links": [
       {
@@ -134,7 +154,12 @@
     "dates": "Jan 2017",
     "info": {
       "tags": ["python", "flask", "jquery", "javascript", "html+css"],
-      "description": "Web application utilizing python flask for song generation.  Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
+      "description": {
+        "brief": "Web application utilizing python flask for song generation.",
+        "verbose": [
+          "Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
+        ]
+      }
     },
     "links": [
       {
@@ -150,7 +175,10 @@
     "inProgress": false,
     "info": {
       "tags": ["java"],
-      "description": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
+      "description": {
+        "brief": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
+        "verbose": [""]
+      },
       "demo_ins": "Run visualizer with $java VisualTree Run sorting algo with $java BST"
     },
     "links": [
@@ -167,7 +195,10 @@
     "inProgress": false,
     "info": {
       "tags": ["java"],
-      "description": "A 3 by 3 sliding tile puzzle game built using Java. Clickable tiles allow sliding to complete the picture. Two sorting algorithms are available to solve the puzzle move by move.",
+      "description": {
+        "brief": "A 3 by 3 sliding tile puzzle game built using Java. Clickable tiles allow sliding to complete the picture. Two sorting algorithms are available to solve the puzzle move by move.",
+        "verbose": [""]
+      },
       "demo_ins": "Compile files using javac and run $java PuzzleWindow to play and $java Puzzle to see the algorithm in action"
     },
     "links": [
