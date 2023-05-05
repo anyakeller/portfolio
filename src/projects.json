@@ -1,15 +1,59 @@
 [
   {
-    "project_name": "Gasket for ME360",
+    "project_name": "Seeder",
+    "image_folder_path": "ME360_seeder/",
+    "image_files": ["seeder.png", "seeder_hopper.jpg", "seeder_actuation.png"],
+    "inProgress": false,
+    "dates": "Feb. 2023",
+    "info": {
+      "tags": ["SolidWorks", "Arduino", "G-Code", "MatLAB", "coursework"],
+      "description": {
+        "brief": "Automatic hydroponic seed planter",
+        "verbose": [
+          "The goal of this assignment was to produce a 2.5-axis, belt-driven, cartesian motion system.  My teammate, Zachary Pinard, and I brainstormed ideas for functionality.  The seeder met our constraints on complexity, available resources, and our skillsets.  To clarify our objectives, we restricted the seeds to ones which were spherical, and fairly uniform in size and shape.",
+          "The hopper and mechanical dispensing mechanism were chosen after considering alternative solutions such as a vibratory system, and a pneumatic pick-and-place system.  This would allow us to save time and reduce the risk of dropping seeds during conveyance.  Seeds could be loaded into the hopper in bulk, and would be dispensed by funneling them into a moving panel at the bottom of the hopper, which would then shift one seed at a time to an exit opening.",
+          "While we originally intended to use a stepper motor and lead screw to actuate the dispensing mechanism, we ran into complications with its gear ratio and had to come up with an alternate solution later into the project.  With the resources available, we chose to use a servo, and replaced the lead screw with a linkage mechanism.  At full speed, most of the seeds would miss or bounce out.  This was solved by regulating the servo's speed with pauses between incremental motions.",
+          "Two pairs of steel shaft served as guide rails for the hopper.  Stepper motors drove timing belt pulleys to translate the system.  The y-axis rails were kept short to avoid bending the cantilevered rails.  Rigidity was further enforced by the use of hand-machined ABS parts, rather than FDM 3D-printed ones.",
+          "Motion and positioning were controlled by G-Code instructions sent to a MKS Arduino Mega board through the Repetier-Host 3D-printing software.  This worked perfectly for the grid layout of the seed bed.  A matlab script was written to generate the G-Code after tweaking speed parameters with hand-written G-Code.  To ensure repeatability, we used the width of an eraser to position the hopper at machine home coordinates upon running a new script."
+        ]
+      }
+    },
+    "links": [
+      {
+        "source": "Demo Video",
+        "url": "https://youtu.be/WHZUBET6zvY"
+      },
+      {
+        "source": "Download Matlab Script to Generate Seedcode",
+        "path": "generateSeedCode.m"
+      },
+      {
+        "source": "Download Seedcode G-Code",
+        "path": "seedcode.gcode"
+      }
+    ]
+  },
+  {
+    "project_name": "Gasket",
     "image_folder_path": "ME360_gasket/",
-    "image_files": ["gasket-drawing.jpg","gasket-assembly.jpg"],
+    "image_files": ["gasket-assembly.jpg", "gasket-drawing.jpg"],
     "inProgress": false,
     "dates": "Jan 2023",
     "info": {
-      "tags": ["SolidWorks", "CAD", "CAM", "GibbsCam", "Measuement"],
+      "tags": [
+        "SolidWorks",
+        "CAD",
+        "CAM",
+        "GibbsCam",
+        "Measuement",
+        "coursework"
+      ],
       "description": {
-        "brief": "This gasket was the product of an assignment for a course at Boston University, Electromechanical Design.",
-        "verbose": ["This project was an excercize in measurement and design.  We were given a metal part with locating pins and holes of varying geomentry and tasked with producing a gasket which would match it to 0.005\" of an inch.", "First, I took measuements with the caliper set provided, and recorded them on a rough sketch.  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also instructed to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which I attribute to this.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."]
+        "brief": "This gasket was the product of an assignment for the Electromechanical Design course at Boston University.",
+        "verbose": [
+          "This project was an excercize in measurement and design.  We were given a metal part with locating pins and holes of varying geomentry and tasked with producing a gasket which would match it to 0.005\" of an inch.",
+          "First, I took measuements with the caliper set provided, and recorded them on a rough sketch (not pictured because I may have lost it.  The one above was done afterwards for the fun of it.).  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also instructed to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which I attribute to this.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."
+        ]
       }
     },
     "links": [
@@ -103,7 +147,8 @@
         "jquery",
         "javascript",
         "html+css",
-        "wistia"
+        "wistia",
+        "webdev"
       ],
       "description": {
         "brief": "This project entailed the complete teardown and reconstruction of the Kite and Rocket website.",
@@ -130,7 +175,7 @@
     "inProgress": false,
     "dates": "Sep 2019",
     "info": {
-      "tags": ["jquery", "javascript", "html+css"],
+      "tags": ["jquery", "javascript", "html+css", "webdev", "coursework"],
       "description": {
         "brief": "It's hangman. With Star Trek.",
         "verbose": ["Whoop dee doo."]
@@ -150,7 +195,15 @@
     "inProgress": false,
     "dates": "Jan 2017",
     "info": {
-      "tags": ["python", "flask", "jquery", "javascript", "html+css"],
+      "tags": [
+        "python",
+        "flask",
+        "jquery",
+        "javascript",
+        "html+css",
+        "webdev",
+        "coursework"
+      ],
       "description": {
         "brief": "Web application utilizing python flask for song generation.",
         "verbose": [
@@ -171,7 +224,7 @@
     "image_files": ["BSTscreenshot.png"],
     "inProgress": false,
     "info": {
-      "tags": ["java"],
+      "tags": ["java", "algoritms", "coursework"],
       "description": {
         "brief": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
         "verbose": [""]
@@ -191,7 +244,7 @@
     "image_files": ["tilePuzzleScreenshot.png"],
     "inProgress": false,
     "info": {
-      "tags": ["java"],
+      "tags": ["java", "coursework"],
       "description": {
         "brief": "A 3 by 3 sliding tile puzzle game built using Java. Clickable tiles allow sliding to complete the picture. Two sorting algorithms are available to solve the puzzle move by move.",
         "verbose": [""]

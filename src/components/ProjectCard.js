@@ -10,7 +10,18 @@ function ProjectCard(props) {
     if (projectData.links.length > 0) {
       return projectData.links.map((link, id) => {
         return (
-          <a className="d-block" key={id} href={link.url} target="_blank">
+          <a
+            className="d-block pb-1"
+            key={id}
+            href={
+              link.url
+                ? link.url
+                : process.env.PUBLIC_URL +
+                  "/project-media/" +
+                  projectData.image_folder_path +
+                  link.path
+            }
+            target="_blank">
             {link.source}
           </a>
         );
@@ -37,9 +48,11 @@ function ProjectCard(props) {
         onClick={() => props.handleProjectClick(projectData)}
         role="button">
         <small className="card-header text-center"> {projectData.dates}</small>
-     
+
         <div className="card-body">
-        <h5 className="card-title text-center mb-3">{projectData.project_name}</h5>
+          <h5 className="card-title text-center mb-3">
+            {projectData.project_name}
+          </h5>
           <Image
             className="card-img"
             src={
