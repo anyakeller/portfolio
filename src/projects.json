@@ -1,15 +1,15 @@
 [
   {
     "project_name": "Gasket for ME360",
-    "image_folder_path": "",
-    "image_files": ["gasket-drawing.jpg"],
+    "image_folder_path": "ME360_gasket/",
+    "image_files": ["gasket-drawing.jpg","gasket-assembly.jpg"],
     "inProgress": false,
     "dates": "Jan 2023",
     "info": {
       "tags": ["SolidWorks", "CAD", "CAM", "GibbsCam", "Measuement"],
       "description": {
         "brief": "This gasket was the product of an assignment for a course at Boston University, Electromechanical Design.",
-        "verbose": ["I was given a metal part and tasked with producing a gasket which would match it to 0.005\" of an inch.  I took measuements with a caliper set and created a CAD file for the gasket, using ANSI fit standards as a guide.  From the CAD I created a CAM file and machined the part out of 1/32\" PVC."]
+        "verbose": ["This project was an excercize in measurement and design.  We were given a metal part with locating pins and holes of varying geomentry and tasked with producing a gasket which would match it to 0.005\" of an inch.", "First, I took measuements with the caliper set provided, and recorded them on a rough sketch.  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also instructed to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which I attribute to this.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."]
       }
     },
     "links": [
