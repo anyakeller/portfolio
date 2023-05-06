@@ -19,7 +19,18 @@ function ProjectDetail(props) {
     if (props.selectedProject.links.length > 0) {
       return props.selectedProject.links.map((link, id) => {
         return (
-          <a className="d-block" key={id} href={link.url} target="_blank">
+          <a
+            className="d-block"
+            key={id}
+            href={
+              link.url
+                ? link.url
+                : process.env.PUBLIC_URL +
+                  "/project-media/" +
+                  props.selectedProject.image_folder_path +
+                  link.path
+            }
+            target="_blank">
             {link.source}
           </a>
         );
@@ -46,7 +57,9 @@ function ProjectDetail(props) {
           <small className="text-muted">{props.selectedProject.dates}</small>
         </Modal.Header>
         <Modal.Body>
-          <Modal.Title className="text-center">{props.selectedProject.project_name}</Modal.Title>
+          <Modal.Title className="text-center">
+            {props.selectedProject.project_name}
+          </Modal.Title>
           <Container fluid>
             <Row>
               <Col>
