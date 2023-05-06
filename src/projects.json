@@ -1,5 +1,27 @@
 [
   {
+    "project_name": "Closed Loop Control Simulation",
+    "image_folder_path": "ME360_vibrations/",
+    "image_files": ["beam_deflection.jpg"],
+    "inProgress": false,
+    "dates": "May 2023",
+    "info": {
+      "tags": ["SolidWorks", "FEM", "coursework"],
+      "description": {
+        "brief": "Simulated closed loop control of a vibratory system in SolidWorks",
+        "verbose": [
+          "The goal of this assignment was to model the behavior of a friction-induced vibratory system and achieve a constant rotational velocity using closed-loop control."
+        ]
+      }
+    },
+    "links": [
+      {
+        "source": "Related CAD, CAM, and Related Files",
+        "url": "https://drive.google.com/drive/folders/13ComfzsyDDjmLnW9dcTnrMQczEYyF_6x?usp=sharing"
+      }
+    ]
+  },
+  {
     "project_name": "Seeder",
     "image_folder_path": "ME360_seeder/",
     "image_files": ["seeder.png", "seeder_hopper.jpg", "seeder_actuation.png"],

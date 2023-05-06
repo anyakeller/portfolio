@@ -11,13 +11,22 @@ Projects automatically populate.
 
 ## Notes to Self:
 TODO: 
-- Redo project view layout
-- ~~Make dedicated view for project details~~
+- Project View
+  - ~~Make dedicated view for project details~~
+  - Add image carousel to project cards instead of detail view
+    - Get carousel to stop resizing everything when the image changes
+    - Implement autocropping to prevent the above
+  - Get rid of link click propagation to parent tile
+  - Implement the ability to have inline photos in the project detail view
+  - Add category/tag-based filtering
+  - Redo layout because it's confusing and distressing
+  - I'm distressing
+  - I'm distressed
 - ~~get rid of router dependencies~~
-- Add image carousel to project cards instead of detail view
-  - Get carousel to stop resizing everything when the image changes
-- Get rid of link click propogation to parent tile
-- Implement the ability to have inline photos in the project detail view
+- Expand website
+  - Add back multiple pages and routes
+  - Add video support
+  - Cry
 
 
 ### I'm using npm not yarn
