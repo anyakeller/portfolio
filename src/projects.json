@@ -10,7 +10,7 @@
       "description": {
         "brief": "Simulated closed loop control of a vibratory system in SolidWorks",
         "verbose": [
-          "The goal of this assignment was to model the behavior of a friction-induced vibratory system and achieve a constant rotational velocity using closed-loop control.",
+          "The goal of this Electromechanical Design course assignment was to model the behavior of a friction-induced vibratory system and achieve a constant rotational velocity using closed-loop control.",
           "The target mechanism induces frictional vibration between surfaces, using a motor-driven shaft and a block at the end of a steel cantilever.  From this I created a simplified model using the Solidworks Motion add-in, representing the deflection of the cantilever with a spring, and adding a constant force to keep the block in contact with the shaft.  The part materials were specified as neoprene rubber with the “rubber” preset static and kinetic friction coefficients.  I also paid carful attention to the mates I used in order to prevent over-constraining the part with redundancies.",
           "The oscillatory motion is produced by the spring-mass system.  As the shaft rotates, static friction drags the block upwards, stretching the spring and creating a downward force.  Once the spring force overcomes the friction from the shaft, the block slips and the friction reduces to kinetic friction.",
           "To estimate the spring constant, I used the SolidWorks simulation add-in to predict the deflection of the beam when loaded at one end, which gave the relationship between force and displacement.  I modeled the beam of 12 in length and a 1 in x 0.125 in cross section using Alloy Steel as the material and loaded it with 0.25 lb on one end, and fixed it at the other.  This produced a deflection of ~2.89E-5 in, or 0.0007329 mm.  Dividing the force of the load by the deflection produced k = 1517 N/m or about 8.66 lbf/in.",
@@ -36,7 +36,7 @@
       "description": {
         "brief": "Automatic hydroponic seed planter",
         "verbose": [
-          "The goal of this assignment was to produce a 2.5-axis, belt-driven, cartesian motion system.  My teammate, Zachary Pinard, and I brainstormed ideas for functionality.  The seeder met our constraints on complexity, available resources, and our skillsets.  To clarify our objectives, we restricted the seeds to mustard seeds, which were spherical, and fairly uniform in size and shape.",
+          "The goal of this Electromechanical Design course assignment was to produce a 2.5-axis, belt-driven, cartesian motion system.  My teammate, Zachary Pinard, and I brainstormed ideas for functionality.  The seeder met our constraints on complexity, available resources, and our skillsets.  To clarify our objectives, we restricted the seeds to mustard seeds, which were spherical, and fairly uniform in size and shape.",
           "The hopper and mechanical dispensing mechanism were chosen after considering alternative solutions such as a vibratory system, and a pneumatic pick-and-place system.  This would allow us to save time and reduce the risk of dropping seeds during conveyance.  Seeds could be loaded into the hopper in bulk, and would be dispensed by funneling them into a moving panel at the bottom of the hopper, which would then shift one seed at a time to an exit opening.",
           "While we originally intended to use a stepper motor and lead screw to actuate the dispensing mechanism, we ran into complications with its gear ratio and had to come up with an alternate solution later into the project.  With the resources available, we chose to use a servo, and replaced the lead screw with a linkage mechanism.  At full speed, most of the seeds would miss or bounce out.  This was solved by regulating the servo's speed with pauses between incremental motions.",
           "Two pairs of steel shaft served as guide rails for the hopper.  Stepper motors drove timing belt pulleys to translate the system.  The y-axis rails were kept short to avoid bending the cantilevered rails.  Rigidity was further enforced by the use of hand-machined ABS parts, rather than FDM 3D-printed ones.",
@@ -75,10 +75,10 @@
         "coursework"
       ],
       "description": {
-        "brief": "This gasket was the product of an assignment for the Electromechanical Design course at Boston University.",
+        "brief": "This gasket assignment for the Electromechanical Design course at Boston University.",
         "verbose": [
           "This project was an excercize in measurement and design.  We were given a metal part with locating pins and holes of varying geomentry and tasked with producing a gasket which would match it to 0.005\" of an inch.",
-          "First, I took measuements with the caliper set provided, and recorded them on a rough sketch (not pictured because I may have lost it.  The one above was done afterwards for the fun of it.).  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also instructed to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which I attribute to this.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."
+          "First, I took measurements with the caliper set provided, and recorded them on a rough sketch (not pictured because I may have lost it.  The one above was done afterwards for the fun of it.).  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also advised to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which confirmed my suspicions.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."
         ]
       }
     },
@@ -86,6 +86,36 @@
       {
         "source": "Related CAD, CAM, and image Files",
         "url": "https://drive.google.com/drive/folders/1fpWwhp8ZB6UEoqHbCn-4dvcjxxiQwDuY?usp=sharing"
+      }
+    ]
+  },
+  {
+    "project_name": "Four Bar Linkage",
+    "image_folder_path": "four_bar_crocodile/",
+    "image_files": ["OOH PRETTY.JPG"],
+    "inProgress": false,
+    "dates": "December, 2021",
+    "info": {
+      "tags": [
+        "SolidWorks",
+        "CAD",
+        "coursework"
+      ],
+      "description": {
+        "brief": "A creative four bar linkage assignment for the Intro to CAD at Boston University.",
+        "verbose": [
+          "It's a crocodile.  Gnarly dude."
+        ]
+      }
+    },
+    "links": [
+      {
+        "source": "Motion Animation",
+        "url": "https://youtu.be/ZP0SirjnavY"
+      },
+      {
+        "source": "Related CAD and Image Files",
+        "url": "https://drive.google.com/drive/folders/1LxsskODR8dU7cyAARbUfl33qxpuDLY1e?usp=share_link"
       }
     ]
   },
