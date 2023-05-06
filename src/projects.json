@@ -6,7 +6,13 @@
     "inProgress": false,
     "dates": "May 2023",
     "info": {
-      "tags": ["SolidWorks", "FEM", "coursework"],
+      "tags": [
+        "SolidWorks",
+        "FEM",
+        "Motion Analysis",
+        "Simulation",
+        "coursework"
+      ],
       "description": {
         "brief": "Simulated closed loop control of a vibratory system in SolidWorks",
         "verbose": [
@@ -92,20 +98,18 @@
   {
     "project_name": "Four Bar Linkage",
     "image_folder_path": "four_bar_crocodile/",
-    "image_files": ["OOH PRETTY.JPG"],
+    "image_files": [
+      "OOH PRETTY.JPG",
+      "FULL ANNOTATED MECHANISM.jpg",
+      "DIMENSIONED DIAGRAM.jpg"
+    ],
     "inProgress": false,
     "dates": "December, 2021",
     "info": {
-      "tags": [
-        "SolidWorks",
-        "CAD",
-        "coursework"
-      ],
+      "tags": ["SolidWorks", "Motion Analysis", "CAD", "coursework"],
       "description": {
-        "brief": "A creative four bar linkage assignment for the Intro to CAD at Boston University.",
-        "verbose": [
-          "It's a crocodile.  Gnarly dude."
-        ]
+        "brief": "A creative four bar linkage and motion analysis assignment for Intro to CAD at Boston University.",
+        "verbose": ["It's a crocodile.  Gnarly dude."]
       }
     },
     "links": [
