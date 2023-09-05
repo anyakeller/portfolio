@@ -2,7 +2,7 @@
   {
     "project_name": "Closed Loop Control Simulation",
     "image_folder_path": "ME360_vibrations/",
-    "image_files": ["full_model.png", "beam_deflection.jpg"],
+    "image_files": ["full_model-min.png", "beam_deflection-min.jpg"],
     "inProgress": false,
     "dates": "May 2023",
     "info": {
@@ -34,7 +34,7 @@
   {
     "project_name": "Seeder",
     "image_folder_path": "ME360_seeder/",
-    "image_files": ["seeder.png", "seeder_hopper.jpg", "seeder_actuation.png"],
+    "image_files": ["seeder-min.png", "seeder_hopper-min.jpg", "seeder_actuation-min.png"],
     "inProgress": false,
     "dates": "Feb. 2023",
     "info": {
@@ -68,7 +68,7 @@
   {
     "project_name": "Gasket",
     "image_folder_path": "ME360_gasket/",
-    "image_files": ["gasket-assembly.jpg", "gasket-drawing.jpg"],
+    "image_files": ["gasket-assembly-min.jpg", "gasket-drawing-min.jpg"],
     "inProgress": false,
     "dates": "Jan 2023",
     "info": {
@@ -99,9 +99,9 @@
     "project_name": "Four Bar Linkage",
     "image_folder_path": "four_bar_crocodile/",
     "image_files": [
-      "OOH PRETTY.JPG",
-      "FULL ANNOTATED MECHANISM.jpg",
-      "DIMENSIONED DIAGRAM.jpg"
+      "OOH PRETTY-min.jpg",
+      "FULL ANNOTATED MECHANISM-min.jpg",
+      "DIMENSIONED DIAGRAM-min.jpg"
     ],
     "inProgress": false,
     "dates": "December, 2021",
@@ -126,7 +126,7 @@
   {
     "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
     "image_folder_path": "chitag_rocket/",
-    "image_files": ["chitagRocketStageSetup.jpg", "handlebarGuardCAM.jpg"],
+    "image_files": ["chitagRocketStageSetup-min.jpg", "handlebarGuardCAM-min.jpg"],
     "inProgress": false,
     "dates": "January 2019 to November 2019",
     "info": {
@@ -163,7 +163,7 @@
   {
     "project_name": "Vacuum Splint",
     "image_folder_path": "",
-    "image_files": ["vacuumsplint.jpg"],
+    "image_files": ["vacuumsplint-min.jpg"],
     "inProgress": false,
     "dates": "April 2021 to July 2021",
     "info": {
@@ -196,7 +196,7 @@
   {
     "project_name": "Kite and Rocket Wordpress Theme",
     "image_folder_path": "",
-    "image_files": ["kiteandrocketDesktopScreenshot.png"],
+    "image_files": ["kiteandrocketDesktopScreenshot-min.png"],
     "inProgress": false,
     "dates": "Aug 2020 to Jul 2021",
     "info": {
@@ -231,7 +231,7 @@
   {
     "project_name": "Star Trek Themed Word Guessing Game",
     "image_folder_path": "",
-    "image_files": ["hangmanScreenshot.png"],
+    "image_files": ["hangmanScreenshot-min.png"],
     "inProgress": false,
     "dates": "Sep 2019",
     "info": {
@@ -251,7 +251,7 @@
   {
     "project_name": "Magic Music Matcher",
     "image_folder_path": "",
-    "image_files": ["magicMusicMatcherScreenshot.png"],
+    "image_files": ["magicMusicMatcherScreenshot-min.png"],
     "inProgress": false,
     "dates": "Jan 2017",
     "info": {
@@ -281,7 +281,7 @@
   {
     "project_name": "Auto-Balancing Binary Search Tree",
     "image_folder_path": "",
-    "image_files": ["BSTscreenshot.png"],
+    "image_files": ["BSTscreenshot-min.png"],
     "inProgress": false,
     "info": {
       "tags": ["java", "algoritms", "coursework"],
@@ -301,7 +301,7 @@
   {
     "project_name": "Tile Puzzle",
     "image_folder_path": "",
-    "image_files": ["tilePuzzleScreenshot.png"],
+    "image_files": ["tilePuzzleScreenshot-min.png"],
     "inProgress": false,
     "info": {
       "tags": ["java", "coursework"],
