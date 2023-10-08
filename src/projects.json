@@ -17,7 +17,7 @@
         "brief": "Simulated closed loop control of a vibratory system in SolidWorks",
         "verbose": [
           "The goal of this Electromechanical Design course assignment was to model the behavior of a friction-induced vibratory system and achieve a constant rotational velocity using closed-loop control.",
-          "The target mechanism induces frictional vibration between surfaces, using a motor-driven shaft and a block at the end of a steel cantilever.  From this I created a simplified model using the Solidworks Motion add-in, representing the deflection of the cantilever with a spring, and adding a constant force to keep the block in contact with the shaft.  The part materials were specified as neoprene rubber with the “rubber” preset static and kinetic friction coefficients.  I also paid carful attention to the mates I used in order to prevent over-constraining the part with redundancies.",
+          "The target mechanism induces frictional vibration between surfaces, using a motor-driven shaft and a block at the end of a steel cantilever.  From this I created a simplified model using the SolidWorks Motion add-in, representing the deflection of the cantilever with a spring, and adding a constant force to keep the block in contact with the shaft.  The part materials were specified as neoprene rubber with the “rubber” preset static and kinetic friction coefficients.  I also paid carful attention to the mates I used in order to prevent over-constraining the part with redundancies.",
           "The oscillatory motion is produced by the spring-mass system.  As the shaft rotates, static friction drags the block upwards, stretching the spring and creating a downward force.  Once the spring force overcomes the friction from the shaft, the block slips and the friction reduces to kinetic friction.",
           "To estimate the spring constant, I used the SolidWorks simulation add-in to predict the deflection of the beam when loaded at one end, which gave the relationship between force and displacement.  I modeled the beam of 12 in length and a 1 in x 0.125 in cross section using Alloy Steel as the material and loaded it with 0.25 lb on one end, and fixed it at the other.  This produced a deflection of ~2.89E-5 in, or 0.0007329 mm.  Dividing the force of the load by the deflection produced k = 1517 N/m or about 8.66 lbf/in.",
           "I attached a 30 rpm constant-speed motor to the shaft and plotted the output.  For closed loop control, I replaced the motor with an equation-defined torque.  Plotting the angular velocity allowed me to use the instantaneous values in the equation and implement the proportional element of PID tuning.  I defined the torque as some constant, kp, times the difference between the target and instantaneous velocities.  For low values of kp, the motor was not able to overcome the force of friction.  For higher values, it would quickly approach and maintain a level just below the target speed.  I decided to go with kp=0.15 as larger values would cause my computer to crash."
@@ -77,14 +77,14 @@
         "CAD",
         "CAM",
         "GibbsCam",
-        "Measuement",
+        "Measurement",
         "coursework"
       ],
       "description": {
         "brief": "This gasket assignment for the Electromechanical Design course at Boston University.",
         "verbose": [
-          "This project was an excercize in measurement and design.  We were given a metal part with locating pins and holes of varying geomentry and tasked with producing a gasket which would match it to 0.005\" of an inch.",
-          "First, I took measurements with the caliper set provided, and recorded them on a rough sketch (not pictured because I may have lost it.  The one above was done afterwards for the fun of it.).  From this, I created a Solidworks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also advised to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which confirmed my suspicions.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."
+          "This project was an exercise in measurement and design.  We were given a metal part with locating pins and holes of varying geometry and tasked with producing a gasket which would match it to 0.005\" of an inch.",
+          "First, I took measurements with the caliper set provided, and recorded them on a rough sketch (not pictured because I may have lost it.  The one above was done afterwards for the fun of it.).  From this, I created a SolidWorks CAD file with the relevant part geometry.  To attain the ideal fits, I used a chart of ANSI standards as a sizing guide.  To produce the gasket, we were provided 1/32\" thick PVC stock.  I created a CAM file from the CAD using GibbsCAM.  Because of the flexibility of PVC, I included an extra toolpath offset and a spring pass.  We were also advised to include an extra 0.003\" all around, which I was hesitant to include, as it may have been redundant to the offsets I had already considered.  The machined part was slightly oversized, which confirmed my suspicions.  Out of curiosity, I remade the part without the extra 0.003\" and it fit perfectly."
         ]
       }
     },
@@ -155,6 +155,10 @@
         "url": "https://youtu.be/9N14jaQVq4c"
       },
       {
+        "source": "Video: Explanation of mechanism design on Kite and Rocket Website",
+        "url": "https://kiteandrocket.com/krvideo/the-making-of-the-worlds-largest-kid-powered-ten-foot-rocket/"
+      },
+      {
         "source": "Video: Awards ceremony launch on Kite and Rocket Website",
         "url": "https://kiteandrocket.com/krvideo/worlds-largest-kid-powered-rocket/"
       }
@@ -182,7 +186,7 @@
         "brief": "This device addresses the symptoms of Peyronie's disease which is caused by scar tissue formation on the penis.",
         "verbose": [
           "The project was proposed by a doctor in the field who believed that the current solutions were bulky and ineffective.  I came up with a modularized mechanical solution to the problem inspired by the splint I used when I broke my hand.",
-          "The design consists of a foam pad which puts pressure on the bend and can be adjusted by thumbscrew.  The housing was FDM 3D printed.  To maintain the required vacuum seal, I turned multiple segments of polycarbonate tube which could be stacked together and interface with the vacuum pump.  By request, I started another prototype for a balloon-style pressure mechanism.  To manufacture the balloon, I tried to rotocast urethane with a mechanism I built, but could not achieve a consitent wall thickness.  My final mold design before leaving the project required a polyurethane melt-away core (expensive, I know), but we found the inflation to be difficult to control, inconsistent, and potentialy dangerous.  The client ultimately agreed that a mechanical screw mechanism would be the preferred choice."
+          "The design consists of a foam pad which puts pressure on the bend and can be adjusted by thumbscrew.  The housing was FDM 3D printed.  To maintain the required vacuum seal, I turned multiple segments of polycarbonate tube which could be stacked together and interface with the vacuum pump.  By request, I started another prototype for a balloon-style pressure mechanism.  To manufacture the balloon, I tried to rotocast urethane with a mechanism I built, but could not achieve a consistent wall thickness.  My final mold design before leaving the project required a polyurethane melt-away core (expensive, I know), but we found the inflation to be difficult to control, inconsistent, and potentially dangerous.  The client ultimately agreed that a mechanical screw mechanism would be the preferred choice."
         ]
       }
     },
@@ -267,7 +271,7 @@
       "description": {
         "brief": "Web application utilizing python flask for song generation.",
         "verbose": [
-          "Features include an interactive selection map that generates songs from a random other country with similar charachteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
+          "Features include an interactive selection map that generates songs from a random other country with similar characteristics, a song search bar for doing the same with a specific song, a login system with saving songs to your profile,and an embedded spotify player."
         ]
       }
     },
@@ -284,9 +288,9 @@
     "image_files": ["BSTscreenshot-min.png"],
     "inProgress": false,
     "info": {
-      "tags": ["java", "algoritms", "coursework"],
+      "tags": ["java", "algorithms", "coursework"],
       "description": {
-        "brief": "A vizualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
+        "brief": "A visualizer for binary search trees written in Java that will automatically sort a random array of numbers and produce a balanced tree.",
         "verbose": [""]
       },
       "demo_ins": "Run visualizer with $java VisualTree Run sorting algo with $java BST"
