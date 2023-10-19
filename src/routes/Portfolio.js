@@ -35,7 +35,7 @@ function Portfolio(props) {
                 }}>
                 Click a project tile for details
               </p>
-              <small className="text-muted float-right">This website is a work in progress and the interface is a bit wonky. <a href="https://github.com/anyakeller/portfolio"> I'd appretiate any suggestions!</a></small>
+              <small className="text-muted float-right">This website is a work in progress and the interface is a bit wonky. <a href="https://github.com/anyakeller/portfolio"> I'd appreciate any suggestions!</a></small>
             </div>
           </div>
         </div>
