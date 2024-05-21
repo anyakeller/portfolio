@@ -2,12 +2,60 @@
 
 My portfolio/website built using the React framework
 
-## Structure 
+## Usage 
+
+### Command Line
+
+#### Running Locally
+
+Node version: 14.x.x (because node-sass problems)
+
+Switch to correct node version before running!!!
+
+`nvm use 14`
+
+### Deploy to github pages
+
+`npm run deploy`
 
 ### Adding a Project
 Projects automatically populate. 
-- Add project title, description, etc. to /projects.json
-- Images
+#### Adding Project Info 
+
+Add project title, description, etc. as an object to the list in /projects.json
+
+**Project Entry Template**
+``` json
+{
+  "project_name": "Project name",
+  "image_folder_path": "dir_name/",
+  "image_files": [
+    "image1.ext",
+    "image2.ext"
+  ],
+  "inProgress": false,
+  "dates": "StartMonth Year to EndMonth Year",
+  "info": {
+    "tags": ["SolidWorks", "machining", "coursework","etc."],
+    "description": {
+      "brief": "1-2 sentences",
+      "verbose": ["Paragraph 1", "Paragraph 2","Etc..."]
+    }
+  },
+  "links": [
+    {
+      "source": "Link1 name",
+      "url": "/"
+    },
+        {
+      "source": "Link2 name",
+      "url": "/"
+    }
+  ]
+}
+```
+
+#### Adding Project Images
   - Place in directory /project-media/\[project_name]
   - Crop images to 164:128
   - Minify image
@@ -30,12 +78,3 @@ TODO:
   - Add back multiple pages and routes
   - Add video support
   - ~~Cry~~
-
-
-### I'm using npm not yarn
-
-Node version: 14.x.x (because node-sass problems)
-
-*Remember* to switch versions before trying to run: `nvm use 14`
-
-To deploy to gh-pages: `npm run deploy`

@@ -1,5 +1,50 @@
 [
   {
+    "project_name": "Viewmaster for Friction Visualization",
+    "image_folder_path": "capstone/",
+    "image_files": [
+      "capstone_render-min.jpg"
+    ],
+    "inProgress": false,
+    "dates": "September 2023 to May 2024",
+    "info": {
+      "tags": ["Digital Image Correlation","SolidWorks","microcontroller","research","coursework"],
+      "description": {
+        "brief": "its a thing",
+        "verbose": ["Paragraph 1", "Paragraph 2"]
+      }
+    },
+    "links": [
+      {
+        "source": "CAD Models, Videos, and Additional Material",
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "project_name": "Rotary Vane Pump",
+    "image_folder_path": "vane_pump/",
+    "image_files": [
+      "PU-00_Pump_Assembly_dwg_1-min.jpg",
+      "PU-00_Pump_Assembly_dwg_2-min.jpg"
+    ],
+    "inProgress": false,
+    "dates": "September 2023 to December 2023",
+    "info": {
+      "tags": ["Onshape", "simulation", "coursework"],
+      "description": {
+        "brief": "its a thing",
+        "verbose": ["Paragraph 1", "Paragraph 2"]
+      }
+    },
+    "links": [
+      {
+        "source": "CAD Models, Videos, and Additional Material",
+        "url": "/"
+      }
+    ]
+  },
+  {
     "project_name": "Closed Loop Control Simulation",
     "image_folder_path": "ME360_vibrations/",
     "image_files": ["full_model-min.png", "beam_deflection-min.jpg"],
@@ -9,8 +54,8 @@
       "tags": [
         "SolidWorks",
         "FEM",
-        "Motion Analysis",
-        "Simulation",
+        "motion analysis",
+        "simulation",
         "coursework"
       ],
       "description": {
@@ -34,7 +79,11 @@
   {
     "project_name": "Seeder",
     "image_folder_path": "ME360_seeder/",
-    "image_files": ["seeder-min.png", "seeder_hopper-min.jpg", "seeder_actuation-min.png"],
+    "image_files": [
+      "seeder-min.png",
+      "seeder_hopper-min.jpg",
+      "seeder_actuation-min.png"
+    ],
     "inProgress": false,
     "dates": "Feb. 2023",
     "info": {
@@ -75,9 +124,9 @@
       "tags": [
         "SolidWorks",
         "CAD",
-        "CAM",
+        "CAM/CNC",
         "GibbsCam",
-        "Measurement",
+        "measurement",
         "coursework"
       ],
       "description": {
@@ -106,7 +155,7 @@
     "inProgress": false,
     "dates": "December, 2021",
     "info": {
-      "tags": ["SolidWorks", "Motion Analysis", "CAD", "coursework"],
+      "tags": ["SolidWorks", "motion analysis", "CAD", "coursework"],
       "description": {
         "brief": "A creative four bar linkage and motion analysis assignment for Intro to CAD at Boston University.",
         "verbose": ["It's a crocodile.  Gnarly dude."]
@@ -126,20 +175,24 @@
   {
     "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
     "image_folder_path": "chitag_rocket/",
-    "image_files": ["chitagRocketStageSetup-min.jpg", "handlebarGuardCAM-min.jpg"],
+    "image_files": [
+      "chitagRocketStageSetup-min.jpg",
+      "handlebarGuardCAM-min.jpg"
+    ],
     "inProgress": false,
     "dates": "January 2019 to November 2019",
     "info": {
       "tags": [
         "SolidWorks",
         "CAD",
-        "CAM",
+        "CAM/CNC",
         "SolidCam",
-        "Pneumatics",
-        "Lathe",
-        "Mill",
+        "pneumatics",
+        "machining",
+        "lathe",
+        "mill",
         "Smooth-On",
-        "3D Printing"
+        "3D printing"
       ],
       "description": {
         "brief": "An 8-foot tall foam rocket used as an attraction at the Chicago Toy and Game Fair.",
@@ -173,14 +226,15 @@
     "info": {
       "tags": [
         "casting",
-        "3D Printing",
+        "3D printing",
         "FDM",
-        "Rotocasting",
+        "rotocasting",
         "Smooth-On",
         "SolidWorks",
         "CAD",
-        "Lathe",
-        "Mill"
+        "machining",
+        "lathe",
+        "mill"
       ],
       "description": {
         "brief": "This device addresses the symptoms of Peyronie's disease which is caused by scar tissue formation on the penis.",
