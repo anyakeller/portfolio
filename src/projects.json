@@ -2,7 +2,7 @@
   {
     "project_name": "Viewmaster for Friction Visualization",
     "image_folder_path": "capstone/",
-    "image_files": ["capstone_render-min.jpg"],
+    "image_files": ["capstone_render-min.JPG"],
     "inProgress": false,
     "dates": "September 2023 to May 2024",
     "info": {
