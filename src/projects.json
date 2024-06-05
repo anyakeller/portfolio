@@ -1,5 +1,32 @@
 [
   {
+    "project_name": "Viewmaster for Friction Visualization",
+    "image_folder_path": "capstone/",
+    "image_files": ["capstone_render-min.jpg"],
+    "inProgress": false,
+    "dates": "September 2023 to May 2024",
+    "info": {
+      "tags": [
+        "Vibration",
+        "Digital Image Correlation",
+        "SolidWorks",
+        "microcontroller",
+        "research",
+        "coursework"
+      ],
+      "description": {
+        "brief": "BU Senior Capstone Project: Mechanism for Visualizing Stick-Slip Friction",
+        "verbose": ["Detailed Description Coming Soon"]
+      }
+    },
+    "links": [
+      {
+        "source": "CAD Models, Videos, and Additional Material",
+        "url": "/"
+      }
+    ]
+  },
+  {
     "project_name": "Rotary Vane Pump",
     "image_folder_path": "vane_pump/",
     "image_files": [
@@ -9,7 +36,15 @@
     "inProgress": false,
     "dates": "September 2023 to December 2023",
     "info": {
-      "tags": ["Onshape", "GD&T", "DFM", "simulation", "Ansys", "aPriori", "coursework"],
+      "tags": [
+        "Onshape",
+        "GD&T",
+        "DFM",
+        "simulation",
+        "Ansys",
+        "aPriori",
+        "coursework"
+      ],
       "description": {
         "brief": "Rotary vane pump design and production-quality drawing creation with an emphasis on design for manufacturing.",
         "verbose": [
@@ -131,9 +166,9 @@
     "project_name": "Four Bar Linkage",
     "image_folder_path": "four_bar_crocodile/",
     "image_files": [
-      "OOH PRETTY-min.jpg",
-      "FULL ANNOTATED MECHANISM-min.jpg",
-      "DIMENSIONED DIAGRAM-min.jpg"
+      "OOH_PRETTY-min.JPG",
+      "FULL_ANNOTATED_MECHANISM-min.jpg",
+      "DIMENSIONED_DIAGRAM-min.jpg"
     ],
     "inProgress": false,
     "dates": "December, 2021",

@@ -29,7 +29,7 @@ function Home(props) {
             Full-stack website developer{"\n"}
           </p>
           <span className="d-flex justify-content-around text-center">
-            <a href="Anya%20Keller%20BU%20Resume.pdf" download>
+            <a href="Anya_Keller_Resume.pdf" download>
               <i className="fa-solid fa-file-arrow-down"></i> Resume
             </a>
             <a href="https://github.com/anyakeller">
