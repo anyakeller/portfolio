@@ -25,7 +25,7 @@ export default function ProjectDetailCarousel(props) {
     });
   }
 
-  if (imageFiles.length > 0)
+  if (imageFiles.length > 1)
     return (
       <Carousel className="rounded" style={{ overflow: "hidden" }}>
         {makeSlides()}

@@ -7,3 +7,13 @@
 .project-card:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  -webkit-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.carousel-indicators{
+  -webkit-filter: drop-shadow( 0px 0px 1px rgba(0, 0, 0, .3));
+  filter: drop-shadow( 0px 0px 1px rgba(0, 0, 0, .3));
+}
