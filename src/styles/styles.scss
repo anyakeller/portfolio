@@ -18,6 +18,13 @@ button:focus {
 a {
   text-decoration: none !important;
 }
+
+.read-more {
+  @include media-breakpoint-up(md) {
+    display:none;
+  }
+}
+
 /*
 .card-columns {
   @include media-breakpoint-only(sm) {

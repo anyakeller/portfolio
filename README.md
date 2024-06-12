@@ -64,9 +64,8 @@ Add project title, description, etc. as an object to the list in /projects.json
 TODO: 
 - Project View
   - ~~Make dedicated view for project details~~
-  - Add image carousel to project cards instead of detail view
+  - ~~Add image carousel to project cards instead of detail view~~
     - ~~Get carousel to stop resizing everything when the image changes~~
-    - Implement autocropping to prevent the above
   - Get rid of link click propagation to parent tile
   - Implement the ability to have inline photos in the project detail view
   - Add category/tag-based filtering
