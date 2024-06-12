@@ -2,6 +2,7 @@ import React from "react";
 import { Modal, Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import ProjectDetailCarousel from "./ProjectDetailCarousel.js";
+import ListGroup from "react-bootstrap/ListGroup";
 
 function ProjectDetail(props) {
   const projectDetailModalShow = props.projectDetailModalShow;
@@ -10,7 +11,20 @@ function ProjectDetail(props) {
   function makeParagraphs() {
     return props.selectedProject.info.description.verbose.map(
       (paragraph, id) => {
-        return <p key={id}>{paragraph}</p>;
+        return (
+          <ListGroup.Item key={id}>
+            <div className="ms-2 me-auto">
+              {paragraph.title ? (
+                <span>
+                  <div className="fw-bold"> {paragraph.title} </div>{" "}
+                  {paragraph.text}{" "}
+                </span>
+              ) : (
+                paragraph
+              )}
+            </div>
+          </ListGroup.Item>
+        );
       }
     );
   }
@@ -78,7 +92,11 @@ function ProjectDetail(props) {
               <Col className="text-center"></Col>
             </Row>
             <Row>
-              <Col className="pt-4">{makeParagraphs()}</Col>
+              <Col className="pt-4">
+                <ul className="list-group list-group-flush">
+                  {makeParagraphs()}
+                </ul>
+              </Col>
             </Row>
             <Row className="pt-1">
               <Col>{makeLinks()}</Col>

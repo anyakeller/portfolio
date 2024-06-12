@@ -39,7 +39,11 @@ Add project title, description, etc. as an object to the list in /projects.json
     "tags": ["SolidWorks", "machining", "coursework","etc."],
     "description": {
       "brief": "1-2 sentences",
-      "verbose": ["Paragraph 1", "Paragraph 2","Etc..."]
+      "verbose": [
+        "Paragraph 1", 
+        "Paragraph 2", 
+        {"title":"paragraph with title","text":"paragraph text"}, 
+        "Etc..."]
     }
   },
   "links": [
