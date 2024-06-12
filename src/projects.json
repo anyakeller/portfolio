@@ -31,7 +31,12 @@
     "image_folder_path": "vane_pump/",
     "image_files": [
       "PU-00_Pump_Assembly_dwg_1-min.jpg",
-      "PU-00_Pump_Assembly_dwg_2-min.jpg"
+      "PU-00_Pump_Assembly_dwg_2-min.jpg",
+      "PU-01C Housing Cast-min.png",
+      "PU-01 Housing Machined-min.png",
+      "PU-01 Housing Machined Front-min.png",
+      "PU-01 Housing Machined Rear-min.png",
+      "PU-01 Housing Machined Surfaces-min.png"
     ],
     "inProgress": false,
     "dates": "September 2023 to December 2023",
@@ -194,7 +199,7 @@
     "project_name": "Worlds Largest Kid-Powered Stomp Rocket",
     "image_folder_path": "chitag_rocket/",
     "image_files": [
-      "chitagRocketStageSetup-min.jpg",
+      "chitagRocketStageSetup-min.jpg","CAD_labeled-min.jpeg","front_seal-min.jpeg", "rear_bulkhead-min.jpeg",
       "handlebarGuardCAM-min.jpg"
     ],
     "inProgress": false,
@@ -237,8 +242,8 @@
   },
   {
     "project_name": "Vacuum Splint",
-    "image_folder_path": "",
-    "image_files": ["vacuumsplint-min.jpg"],
+    "image_folder_path": "vacuum_splint/",
+    "image_files": ["vacuumsplint-min.jpg","vacuum_splint_semiassembled-min.jpeg"],
     "inProgress": false,
     "dates": "April 2021 to July 2021",
     "info": {
