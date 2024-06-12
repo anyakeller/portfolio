@@ -2,7 +2,7 @@ import React from "react";
 import Image from "react-bootstrap/image";
 import "../styles/projectcard-styles.css";
 import ListGroup from "react-bootstrap/ListGroup";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 function ProjectCard(props) {
   const projectData = props.projectData;
@@ -22,6 +22,9 @@ function ProjectCard(props) {
                   projectData.image_folder_path +
                   link.path
             }
+            onClick={(e) => {
+              e.stopPropagation();
+            }}
             target="_blank">
             {link.source}
           </a>
@@ -49,7 +52,7 @@ function ProjectCard(props) {
         onClick={(e) => {
           e.stopPropagation();
           props.handleProjectClick(projectData);
-          }}
+        }}
         role="button">
         <small className="card-header text-center"> {projectData.dates}</small>
 
@@ -67,8 +70,16 @@ function ProjectCard(props) {
             }
             alt={projectData["image_files"][0]}
           />
-          <p className="card-text mt-4 mb-0">{projectData.info.description.brief}</p>
-          <p className="text-center m-0 text-muted read-more"><Button variant="link" className="text-decoration-none py-0 text-muted">Read More</Button></p>
+          <p className="card-text mt-4 mb-0">
+            {projectData.info.description.brief}
+          </p>
+          <p className="text-center m-0 text-muted read-more">
+            <Button
+              variant="link"
+              className="text-decoration-none py-0 text-muted">
+              Read More
+            </Button>
+          </p>
         </div>
         <ul className="list-group list-group-flush">
           <ListGroup.Item>{makeLinks()}</ListGroup.Item>
