@@ -25,7 +25,7 @@ function Home(props) {
             Sometimes I design things.{"\n"}
             Sometimes I write code.{"\n"}
             {"\n"}
-            Mechanical Engineering Undergraduate at Boston University{"\n"}
+            BS in Mechanical Engineering, Manufacturing{"\n"}
             Full-stack website developer{"\n"}
           </p>
           <span className="d-flex justify-content-around text-center">
