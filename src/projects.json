@@ -324,7 +324,7 @@
     },
     "links": [
       {
-        "source": "github",
+        "source": "Source Code on Github",
         "url": "https://github.com/anyakeller/k-and-r-revamp"
       },
       {
@@ -348,7 +348,7 @@
     },
     "links": [
       {
-        "source": "github",
+        "source": "Source Code on Github",
         "url": "https://anyakeller.github.io/word_guess_game/"
       }
     ]
@@ -378,7 +378,11 @@
     },
     "links": [
       {
-        "source": "github",
+        "source": "Video: Demo",
+        "url": "https://www.youtube.com/watch?v=QIIgQ24DRZw&feature=youtu.be"
+      },
+      {
+        "source": "Source Code on Github",
         "url": "https://github.com/Bayless/The-Chosen-Tarsiers"
       }
     ]
@@ -398,7 +402,7 @@
     },
     "links": [
       {
-        "source": "github",
+        "source": "Source Code on Github",
         "url": "https://github.com/anyakeller/BST_FP"
       }
     ]
@@ -418,7 +422,7 @@
     },
     "links": [
       {
-        "source": "github",
+        "source": "Source Code on Github",
         "url": "https://github.com/st234pa/TilePuzzle2"
       }
     ]
